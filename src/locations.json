@@ -1,0 +1,430 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.388, 33.749]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Colocation",
+        "type": "40+ MW",
+        "city": "Atlanta",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#FF9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.3496, 33.4356]
+      },
+      "properties": {
+        "name": "Campus 1 Bull AI",
+        "type": "80+ MW",
+        "city": "Avondale",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#E91E63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.3315, 38.749]
+      },
+      "properties": {
+        "name": "Express Script Enterprise",
+        "type": "1+ MW",
+        "city": "Berkeley",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#9C27B0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7008, 45.8393]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "60+ MW",
+        "city": "Boardman",
+        "state": "OR",
+        "region": "Northwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.3897, 36.6671]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "40+ MW",
+        "city": "Boydton",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7141, 34.947]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "80+ MW",
+        "city": "Bridgeport",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.2434, 40.1164]
+      },
+      "properties": {
+        "name": "NCSA Petasca Quantum Com",
+        "type": "20+ MW",
+        "city": "Champaign",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4CAF50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      },
+      "properties": {
+        "name": "PsiQuantum C: Quantum Com",
+        "type": "N/A",
+        "city": "Chicago",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4CAF50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      },
+      "properties": {
+        "name": "University of C Enterprise",
+        "type": "1+ MW",
+        "city": "Chicago",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#9C27B0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.8608, 41.2619]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Colocation",
+        "type": "1+ MW",
+        "city": "Council Bluffs",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#FF9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      },
+      "properties": {
+        "name": "Campus 2 Bull Hyperscale",
+        "type": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.2934, 47.4151]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "1+ MW",
+        "city": "East Wenatchee",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.0740, 33.4484]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Hyperscale",
+        "type": "50+ MW",
+        "city": "Phoenix",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.2705, 40.0150]
+      },
+      "properties": {
+        "name": "Quantum Research Center",
+        "type": "15+ MW",
+        "city": "Boulder",
+        "state": "CO",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4CAF50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.7431, 30.2672]
+      },
+      "properties": {
+        "name": "Campus 2 Bull AI",
+        "type": "60+ MW",
+        "city": "Austin",
+        "state": "TX",
+        "region": "Southwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#E91E63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.6382, 35.7796]
+      },
+      "properties": {
+        "name": "Enterprise Data Center",
+        "type": "25+ MW",
+        "city": "Raleigh",
+        "state": "NC",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#9C27B0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8910, 40.7608]
+      },
+      "properties": {
+        "name": "Campus 1 Bull Colocation",
+        "type": "30+ MW",
+        "city": "Salt Lake City",
+        "state": "UT",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#FF9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3321, 47.6062]
+      },
+      "properties": {
+        "name": "Cluster Zeta-1",
+        "type": "175+ MW",
+        "city": "Seattle",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4A90E2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.9903, 39.7392]
+      },
+      "properties": {
+        "name": "Cluster Eta-2",
+        "type": "160+ MW",
+        "city": "Denver",
+        "state": "CO",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4A90E2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1918, 25.7617]
+      },
+      "properties": {
+        "name": "Cluster Theta-1",
+        "type": "190+ MW",
+        "city": "Miami",
+        "state": "FL",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4A90E2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0589, 42.3601]
+      },
+      "properties": {
+        "name": "Cluster Iota-3",
+        "type": "210+ MW",
+        "city": "Boston",
+        "state": "MA",
+        "region": "Northeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4A90E2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.2650, 44.9778]
+      },
+      "properties": {
+        "name": "Cluster Kappa-1",
+        "type": "185+ MW",
+        "city": "Minneapolis",
+        "state": "MN",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4A90E2"
+      }
+    }
+  ]
+}

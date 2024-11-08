@@ -144,23 +144,6 @@
         "coordinates": [-87.6298, 41.8781]
       },
       "properties": {
-        "name": "PsiQuantum C: Quantum Com",
-        "type": "N/A",
-        "city": "Chicago",
-        "state": "IL",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4CAF50"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-87.6298, 41.8781]
-      },
-      "properties": {
         "name": "University of C Enterprise",
         "type": "1+ MW",
         "city": "Chicago",
@@ -186,40 +169,6 @@
         "image": "",
         "integratedServiceIconUrl": "",
         "colorCode": "#FF9800"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.625, 41.5868]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "40+ MW",
-        "city": "Des Moines",
-        "state": "IA",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.625, 41.5868]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "30+ MW",
-        "city": "Des Moines",
-        "state": "IA",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
       }
     },
     {
@@ -424,6 +373,176 @@
         "image": "",
         "integratedServiceIconUrl": "",
         "colorCode": "#4A90E2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.4558, 44.8521]
+      },
+      "properties": {
+        "name": "Campus 3 Bull Hyperscale",
+        "type": "45+ MW",
+        "city": "Eden Prairie",
+        "state": "MN",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.2162, 42.2151]
+      },
+      "properties": {
+        "name": "Quantum Research Hub",
+        "type": "25+ MW",
+        "city": "Quincy",
+        "state": "MA",
+        "region": "Northeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#4CAF50"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.2867, 25.9860]
+      },
+      "properties": {
+        "name": "Campus 2 Bull AI",
+        "type": "70+ MW",
+        "city": "Hollywood",
+        "state": "FL",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#E91E63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8319, 39.6448]
+      },
+      "properties": {
+        "name": "Campus 3 Bull Colocation",
+        "type": "35+ MW",
+        "city": "Centennial",
+        "state": "CO",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#FF9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2016, 47.6101]
+      },
+      "properties": {
+        "name": "Enterprise Research Center",
+        "type": "15+ MW",
+        "city": "Bellevue",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#9C27B0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.1162, 42.4792]
+      },
+      "properties": {
+        "name": "Campus 2 Bull Hyperscale",
+        "type": "55+ MW",
+        "city": "Medford",
+        "state": "MA",
+        "region": "Northeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.1472, 44.9237]
+      },
+      "properties": {
+        "name": "Campus 4 Bull Colocation",
+        "type": "25+ MW",
+        "city": "Saint Paul",
+        "state": "MN",
+        "region": "Midwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#FF9800"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1431, 26.1248]
+      },
+      "properties": {
+        "name": "Campus 2 Bull Hyperscale",
+        "type": "65+ MW",
+        "city": "Pompano Beach",
+        "state": "FL",
+        "region": "Southeast",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.0867, 39.8561]
+      },
+      "properties": {
+        "name": "Campus 4 Bull AI",
+        "type": "85+ MW",
+        "city": "Westminster",
+        "state": "CO",
+        "region": "Mountain West",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#E91E63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4412, 47.2529]
+      },
+      "properties": {
+        "name": "Campus 3 Bull Hyperscale",
+        "type": "75+ MW",
+        "city": "Tacoma",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "",
+        "integratedServiceIconUrl": "",
+        "colorCode": "#2196F3"
       }
     }
   ]

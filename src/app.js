@@ -36,23 +36,87 @@ export class OSMap extends HTMLElement {
       map.addSource("locations", {
         type: "geojson",
         data: data,
+        cluster: true,
+        clusterMaxZoom: 14, // Max zoom to cluster points on
+        clusterRadius: 50, // Radius of each cluster when clustering points (defaults to 50)
       });
 
-      // Add a layer for points
       map.addLayer({
-        id: "locations",
+        id: "clusters",
         type: "circle",
         source: "locations",
+        filter: ["has", "point_count"],
         paint: {
-          "circle-radius": 14,
-          "circle-color": ["get", "colorCode"],
-          "circle-stroke-width": 1,
-          "circle-stroke-color": "#ffffff",
+          // Use step expressions (https://docs.mapbox.com/style-spec/reference/expressions/#step)
+          "circle-color": [
+            "step",
+            ["get", "point_count"],
+            "#E2231A",
+            1,
+            "#E2231A",
+          ],
+          "circle-radius": [
+            "step",
+            ["get", "point_count"],
+            16,
+            2,
+            20,
+            3,
+            24,
+            4,
+            28,
+            5,
+            32,
+          ],
         },
       });
 
+      map.addLayer({
+        id: "cluster-count",
+        type: "symbol",
+        source: "locations",
+        filter: ["has", "point_count"],
+        layout: {
+          "text-field": ["get", "point_count_abbreviated"],
+          "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+          "text-size": 20,
+        },
+        paint: {
+          "text-color": "#fff"
+        }
+      });
+
+      map.addLayer({
+        id: "unclustered-point",
+        type: "circle",
+        source: "locations",
+        filter: ["!", ["has", "point_count"]],
+        paint: {
+          "circle-radius": 14,
+          "circle-color": ["get", "colorCode"],
+        },
+      });
+
+      // inspect a cluster on click
+      map.on("click", "clusters", (e) => {
+        const features = map.queryRenderedFeatures(e.point, {
+          layers: ["clusters"],
+        });
+        const clusterId = features[0].properties.cluster_id;
+        map
+          .getSource("locations")
+          .getClusterExpansionZoom(clusterId, (err, zoom) => {
+            if (err) return;
+
+            map.easeTo({
+              center: features[0].geometry.coordinates,
+              zoom: zoom,
+            });
+          });
+      });
+
       // Add popup on click
-      map.on("click", "locations", (e) => {
+      map.on("click", "unclustered-point", (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         const properties = e.features[0].properties;
 
@@ -68,12 +132,19 @@ export class OSMap extends HTMLElement {
           .addTo(map);
       });
 
-      // Change cursor to pointer when hovering over points
-      map.on("mouseenter", "locations", () => {
+      map.on("mouseenter", "clusters", () => {
         map.getCanvas().style.cursor = "pointer";
       });
 
-      map.on("mouseleave", "locations", () => {
+      map.on("mouseleave", "clusters", () => {
+        map.getCanvas().style.cursor = "";
+      });
+
+      map.on("mouseenter", "unclustered-point", () => {
+        map.getCanvas().style.cursor = "pointer";
+      });
+
+      map.on("mouseleave", "unclustered-point", () => {
         map.getCanvas().style.cursor = "";
       });
       /* Uncomment this block to load data from an endpoint */
@@ -81,7 +152,6 @@ export class OSMap extends HTMLElement {
       //    .catch((error) => {
       //      console.error("Error loading map data:", error);
       //    });
-
     });
   }
 }

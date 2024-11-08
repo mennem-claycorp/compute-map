@@ -9,13 +9,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Colocation",
-        "type": "40+ MW",
+        "type": "Colocation",
         "city": "Atlanta",
         "state": "GA",
         "region": "Southeast",
+        "size": "30+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#FF9800"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
       }
     },
     {
@@ -26,13 +28,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull AI",
-        "type": "80+ MW",
+        "type": "AI",
         "city": "Avondale",
         "state": "AZ",
         "region": "Southwest",
+        "size": "40+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#E91E63"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
       }
     },
     {
@@ -43,13 +47,15 @@
       },
       "properties": {
         "name": "Express Script Enterprise",
-        "type": "1+ MW",
+        "type": "Enterprise",
         "city": "Berkeley",
         "state": "MO",
         "region": "Midwest",
+        "size": "30+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#9C27B0"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
       }
     },
     {
@@ -60,13 +66,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "60+ MW",
+        "type": "Hyperscale",
         "city": "Boardman",
         "state": "OR",
         "region": "Northwest",
+        "size": "80+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -77,13 +85,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "40+ MW",
+        "type": "Hyperscale",
         "city": "Boydton",
         "state": "VA",
         "region": "Southeast",
+        "size": "80+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -94,13 +104,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "80+ MW",
+        "type": "Hyperscale",
         "city": "Bridgeport",
         "state": "AL",
         "region": "Southeast",
+        "size": "80+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -111,13 +123,15 @@
       },
       "properties": {
         "name": "NCSA Petasca Quantum Com",
-        "type": "20+ MW",
+        "type": "Quantum Computing",
         "city": "Champaign",
         "state": "IL",
         "region": "Midwest",
+        "size": "1+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4CAF50"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#1476E8"
       }
     },
     {
@@ -128,13 +142,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "40+ MW",
+        "type": "Hyperscale",
         "city": "Cheyenne",
         "state": "WY",
         "region": "Mountain West",
+        "size": "60+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -145,13 +161,15 @@
       },
       "properties": {
         "name": "University of C Enterprise",
-        "type": "1+ MW",
+        "type": "Enterprise",
         "city": "Chicago",
         "state": "IL",
         "region": "Midwest",
+        "size": "40+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#9C27B0"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
       }
     },
     {
@@ -162,13 +180,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Colocation",
-        "type": "1+ MW",
+        "type": "Colocation",
         "city": "Council Bluffs",
         "state": "IA",
         "region": "Midwest",
+        "size": "20+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#FF9800"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
       }
     },
     {
@@ -179,13 +199,15 @@
       },
       "properties": {
         "name": "Campus 2 Bull Hyperscale",
-        "type": "40+ MW",
+        "type": "Hyperscale",
         "city": "Des Moines",
         "state": "IA",
         "region": "Midwest",
+        "size": "80+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -196,13 +218,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "1+ MW",
+        "type": "Hyperscale",
         "city": "East Wenatchee",
         "state": "WA",
         "region": "Northwest",
+        "size": "70+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -213,13 +237,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Hyperscale",
-        "type": "50+ MW",
+        "type": "Hyperscale",
         "city": "Phoenix",
         "state": "AZ",
         "region": "Southwest",
+        "size": "90+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -230,13 +256,15 @@
       },
       "properties": {
         "name": "Quantum Research Center",
-        "type": "15+ MW",
+        "type": "Quantum Computing",
         "city": "Boulder",
         "state": "CO",
         "region": "Mountain West",
+        "size": "1+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4CAF50"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#1476E8"
       }
     },
     {
@@ -247,13 +275,15 @@
       },
       "properties": {
         "name": "Campus 2 Bull AI",
-        "type": "60+ MW",
+        "type": "AI",
         "city": "Austin",
         "state": "TX",
         "region": "Southwest",
+        "size": "40+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#E91E63"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
       }
     },
     {
@@ -264,13 +294,15 @@
       },
       "properties": {
         "name": "Enterprise Data Center",
-        "type": "25+ MW",
+        "type": "Enterprise",
         "city": "Raleigh",
         "state": "NC",
         "region": "Southeast",
+        "size": "40+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#9C27B0"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
       }
     },
     {
@@ -281,13 +313,15 @@
       },
       "properties": {
         "name": "Campus 1 Bull Colocation",
-        "type": "30+ MW",
+        "type": "Colocation",
         "city": "Salt Lake City",
         "state": "UT",
         "region": "Mountain West",
+        "size": "30+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#FF9800"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
       }
     },
     {
@@ -298,47 +332,15 @@
       },
       "properties": {
         "name": "Cluster Zeta-1",
-        "type": "175+ MW",
+        "type": "Hyperscale",
         "city": "Seattle",
         "state": "WA",
         "region": "Northwest",
+        "size": "90+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4A90E2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-104.9903, 39.7392]
-      },
-      "properties": {
-        "name": "Cluster Eta-2",
-        "type": "160+ MW",
-        "city": "Denver",
-        "state": "CO",
-        "region": "Mountain West",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4A90E2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.1918, 25.7617]
-      },
-      "properties": {
-        "name": "Cluster Theta-1",
-        "type": "190+ MW",
-        "city": "Miami",
-        "state": "FL",
-        "region": "Southeast",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4A90E2"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
@@ -348,201 +350,377 @@
         "coordinates": [-71.0589, 42.3601]
       },
       "properties": {
-        "name": "Cluster Iota-3",
-        "type": "210+ MW",
-        "city": "Boston",
+        "name": "MIT Quantum Lab",
+        "type": "Quantum Computing",
+        "city": "Cambridge",
         "state": "MA",
         "region": "Northeast",
+        "size": "1+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4A90E2"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#1476E8"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.2650, 44.9778]
+        "coordinates": [-122.6784, 45.5155]
       },
       "properties": {
-        "name": "Cluster Kappa-1",
-        "type": "185+ MW",
-        "city": "Minneapolis",
-        "state": "MN",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4A90E2"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.4558, 44.8521]
-      },
-      "properties": {
-        "name": "Campus 3 Bull Hyperscale",
-        "type": "45+ MW",
-        "city": "Eden Prairie",
-        "state": "MN",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-71.2162, 42.2151]
-      },
-      "properties": {
-        "name": "Quantum Research Hub",
-        "type": "25+ MW",
-        "city": "Quincy",
-        "state": "MA",
-        "region": "Northeast",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#4CAF50"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.2867, 25.9860]
-      },
-      "properties": {
-        "name": "Campus 2 Bull AI",
-        "type": "70+ MW",
-        "city": "Hollywood",
-        "state": "FL",
-        "region": "Southeast",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#E91E63"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-104.8319, 39.6448]
-      },
-      "properties": {
-        "name": "Campus 3 Bull Colocation",
-        "type": "35+ MW",
-        "city": "Centennial",
-        "state": "CO",
-        "region": "Mountain West",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#FF9800"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.2016, 47.6101]
-      },
-      "properties": {
-        "name": "Enterprise Research Center",
-        "type": "15+ MW",
-        "city": "Bellevue",
-        "state": "WA",
+        "name": "Campus 3 Bull AI",
+        "type": "AI",
+        "city": "Portland",
+        "state": "OR",
         "region": "Northwest",
+        "size": "40+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#9C27B0"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-71.1162, 42.4792]
+        "coordinates": [-115.1398, 36.1699]
+      },
+      "properties": {
+        "name": "Desert Edge Colocation",
+        "type": "Colocation",
+        "city": "Las Vegas",
+        "state": "NV",
+        "region": "Southwest",
+        "size": "20+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.1918, 25.7617]
       },
       "properties": {
         "name": "Campus 2 Bull Hyperscale",
-        "type": "55+ MW",
-        "city": "Medford",
-        "state": "MA",
-        "region": "Northeast",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.1472, 44.9237]
-      },
-      "properties": {
-        "name": "Campus 4 Bull Colocation",
-        "type": "25+ MW",
-        "city": "Saint Paul",
-        "state": "MN",
-        "region": "Midwest",
-        "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#FF9800"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.1431, 26.1248]
-      },
-      "properties": {
-        "name": "Campus 2 Bull Hyperscale",
-        "type": "65+ MW",
-        "city": "Pompano Beach",
+        "type": "Hyperscale",
+        "city": "Miami",
         "state": "FL",
         "region": "Southeast",
+        "size": "80+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-105.0867, 39.8561]
+        "coordinates": [-83.0458, 42.3314]
       },
       "properties": {
-        "name": "Campus 4 Bull AI",
-        "type": "85+ MW",
-        "city": "Westminster",
-        "state": "CO",
-        "region": "Mountain West",
+        "name": "Motor City Enterprise",
+        "type": "Enterprise",
+        "city": "Detroit",
+        "state": "MI",
+        "region": "Midwest",
+        "size": "30+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#E91E63"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
       }
     },
     {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.4412, 47.2529]
+        "coordinates": [-106.6504, 35.0844]
+      },
+      "properties": {
+        "name": "Sandia Quantum Center",
+        "type": "Quantum Computing",
+        "city": "Albuquerque",
+        "state": "NM",
+        "region": "Southwest",
+        "size": "1+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#1476E8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.7816, 36.1627]
       },
       "properties": {
         "name": "Campus 3 Bull Hyperscale",
-        "type": "75+ MW",
-        "city": "Tacoma",
-        "state": "WA",
-        "region": "Northwest",
+        "type": "Hyperscale",
+        "city": "Nashville",
+        "state": "TN",
+        "region": "Southeast",
+        "size": "70+ MW",
         "image": "",
-        "integratedServiceIconUrl": "",
-        "colorCode": "#2196F3"
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0060, 40.7128]
+      },
+      "properties": {
+        "name": "Manhattan Edge Hub",
+        "type": "Colocation",
+        "city": "New York",
+        "state": "NY",
+        "region": "Northeast",
+        "size": "30+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.8863, 37.3382]
+      },
+      "properties": {
+        "name": "Silicon Valley AI Lab",
+        "type": "AI",
+        "city": "San Jose",
+        "state": "CA",
+        "region": "West",
+        "size": "40+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0369, 38.9072]
+      },
+      "properties": {
+        "name": "Capital Enterprise Center",
+        "type": "Enterprise",
+        "city": "Washington",
+        "state": "DC",
+        "region": "Northeast",
+        "size": "40+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.1419, 38.8821]
+      },
+      "properties": {
+        "name": "Arlington Tech Hub",
+        "type": "AI",
+        "city": "Arlington",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "40+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.2011, 39.1434]
+      },
+      "properties": {
+        "name": "Maryland Quantum Center",
+        "type": "Quantum Computing",
+        "city": "Rockville",
+        "state": "MD",
+        "region": "Northeast",
+        "size": "1+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#1476E8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0469, 38.8048]
+      },
+      "properties": {
+        "name": "Alexandria Edge Center",
+        "type": "Colocation",
+        "city": "Alexandria",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "20+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.8622, 39.0181]
+      },
+      "properties": {
+        "name": "Beltway Enterprise Hub",
+        "type": "Enterprise",
+        "city": "Bowie",
+        "state": "MD",
+        "region": "Northeast",
+        "size": "30+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.3564, 38.9587]
+      },
+      "properties": {
+        "name": "Fairfax Hyperscale",
+        "type": "Hyperscale",
+        "city": "Fairfax",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "80+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4052, 39.0438]
+      },
+      "properties": {
+        "name": "Loudoun Data Hub",
+        "type": "Hyperscale",
+        "city": "Leesburg",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "90+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.9925, 38.9784]
+      },
+      "properties": {
+        "name": "Silver Spring AI Center",
+        "type": "AI",
+        "city": "Silver Spring",
+        "state": "MD",
+        "region": "Northeast",
+        "size": "40+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#28A745"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.2311, 38.9152]
+      },
+      "properties": {
+        "name": "Tysons Edge Facility",
+        "type": "Colocation",
+        "city": "Tysons",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "30+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#4E2751"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.1528, 39.0817]
+      },
+      "properties": {
+        "name": "Bethesda Enterprise Center",
+        "type": "Enterprise",
+        "city": "Bethesda",
+        "state": "MD",
+        "region": "Northeast",
+        "size": "40+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#212121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4875, 39.0437]
+      },
+      "properties": {
+        "name": "Ashburn Tech Cluster",
+        "type": "Hyperscale",
+        "city": "Ashburn",
+        "state": "VA",
+        "region": "Northeast",
+        "size": "90+ MW",
+        "image": "",
+        "integratedServices": "",
+        "iconUrl": "",
+        "colorCode": "#FFC107"
       }
     }
   ]

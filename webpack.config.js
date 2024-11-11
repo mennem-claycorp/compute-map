@@ -41,12 +41,12 @@ module.exports = {
         use: ["style-loader", "css-loader"],
       },
       {
-        test: /\.(png|jpg|jpeg|gif)$/i,
-        type: "asset/resource",
-      },
-      {
         test: /\.svg$/,
         type: "asset/inline",
+      },
+      {
+        test: /\.html$/,
+        use: "raw-loader",
       },
     ],
   },

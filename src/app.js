@@ -1,11 +1,21 @@
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./styles/map.css";
-// import data from "./locations.json";
-import filterTypeTemplate from "./templates/filter-type.html";
+import data from "./locations.json";
+import typeDropdown from "./dropdowns/filter-type.html";
+import sizeDropdown from "./dropdowns/filter-size.html";
+import stateDropdown from "./dropdowns/filter-state.html";
 
 import chargerIcon from "../static/charger.svg";
 import locationIcon from "../static/location_on.svg";
+import arrowDownIcon from "../static/arrow_drop_down.svg";
+import checkIcon from "../static/check_small.svg";
+
+const filterDropdowns = [
+  typeDropdown,
+  sizeDropdown,
+  stateDropdown,
+];
 
 const images = {
   Hyperscale: "https://i.ibb.co/Rpq1qxn/hyperscale.jpg",
@@ -37,7 +47,28 @@ export class OSMap extends HTMLElement {
     const mapZoom = this.getAttribute("data-os-map-zoom");
     const mapStyle = this.getAttribute("data-os-map-style");
 
-    this.innerHTML = filterTypeTemplate;
+    const filtersContainer = document.createElement("div");
+    const dropdownsContainer = document.createElement("div");
+    const filtersTitle = document.createElement("span");
+    filtersTitle.textContent = "Filter by:";
+    filtersContainer.appendChild(filtersTitle);
+    filtersContainer.appendChild(dropdownsContainer);
+    dropdownsContainer.classList.add("filters-dropdowns");
+    filtersTitle.classList.add("filters-title");
+    filtersContainer.classList.add("filters");
+    this.appendChild(filtersContainer);
+
+    filterDropdowns.forEach((template) => {
+      dropdownsContainer.innerHTML += template;
+    });
+
+    this.querySelectorAll(".check-icon").forEach((imgTag) => {
+      imgTag.src = checkIcon;
+    });
+
+    this.querySelectorAll(".arrow").forEach((imgTag) => {
+      imgTag.src = arrowDownIcon;
+    });
 
     const mapContainer = document.createElement("div");
     mapContainer.id = id;
@@ -165,42 +196,91 @@ export class OSMap extends HTMLElement {
               .addTo(map);
           });
 
-          /* Filter by type */
-          const container = document.getElementById("filter-type");
-          const checkboxes = container.querySelectorAll("input[type=checkbox]");
-          const dropdownToggle = container.querySelector(".dropdown-toggle");
-          const dropdownMenu = container.querySelector(".dropdown-menu");
-          const arrow = dropdownToggle.querySelector(".arrow");
+          /* Filtering */
+          const setupDropdown = (containerId) => {
+            const container = document.getElementById(containerId);
+            const dropdownToggle = container.querySelector(".dropdown-toggle");
+            const dropdownMenu = container.querySelector(".dropdown-menu");
+            const arrow = dropdownToggle.querySelector(".arrow");
 
-          // Toggle dropdown when clicking the button
-          dropdownToggle.addEventListener("click", function (e) {
-            dropdownMenu.classList.toggle("show");
-            arrow.classList.toggle("rotate");
-          });
+            dropdownToggle.addEventListener("click", () => {
+              dropdownMenu.classList.toggle("show");
+              arrow.classList.toggle("rotate");
 
-          // Close dropdown when clicking outside
-          document.addEventListener("click", function (e) {
-            if (
-              !dropdownToggle.contains(e.target) &&
-              !dropdownMenu.contains(e.target)
-            ) {
-              dropdownMenu.classList.remove("show");
-              arrow.classList.remove("rotate");
-            }
-          });
+              // Check if menu is visible and adjust position if needed
+              if (dropdownMenu.classList.contains("show")) {
+                const menuRect = dropdownMenu.getBoundingClientRect();
+                const viewportWidth = window.innerWidth;
 
-          // Prevent dropdown from closing when clicking inside the menu
-          dropdownMenu.addEventListener("click", function (e) {
-            e.stopPropagation();
-          });
+                if (menuRect.right > viewportWidth) {
+                  const overflow = menuRect.right - viewportWidth;
+                  dropdownMenu.style.left = `-${overflow + 5}px`;
+                }
+              } else {
+                // Reset position when hiding
+                dropdownMenu.style.left = "";
+              }
+            });
 
-          // Create an array to store the selected types
-          const originalData = data; // Store the original data
+            // Close dropdown when clicking outside
+            document.addEventListener("click", (e) => {
+              if (
+                !dropdownToggle.contains(e.target) &&
+                !dropdownMenu.contains(e.target)
+              ) {
+                dropdownMenu.classList.remove("show");
+                arrow.classList.remove("rotate");
+              }
+            });
+
+            dropdownMenu.addEventListener("click", (e) => e.stopPropagation());
+
+            return container.querySelectorAll("input[type=checkbox]");
+          };
+
+          // Setup dropdowns
+          const typeCheckboxes = setupDropdown("filter-type");
+          const sizeCheckboxes = setupDropdown("filter-size");
+          const stateCheckboxes = setupDropdown("filter-state");
+
+          // Track selected filters
+          let originalData = data;
           let selectedTypes = [];
+          let selectedSizes = [];
+          let selectedStates = [];
 
-          checkboxes.forEach((input) => {
+          // Apply filters to the data
+          const applyFilters = () => {
+            const filteredData = {
+              type: originalData.type,
+              features: originalData.features.filter((feature) => {
+                const typeMatch =
+                  selectedTypes.length === 0 ||
+                  selectedTypes.includes(feature.properties.type);
+                const sizeMatch =
+                  selectedSizes.length === 0 ||
+                  selectedSizes.includes(feature.properties.size);
+                const stateMatch =
+                  selectedStates.length === 0 ||
+                  selectedStates.includes(feature.properties.state);
+                return typeMatch && sizeMatch && stateMatch;
+              }),
+            };
+
+            map
+              .getSource("locations")
+              .setData(
+                selectedTypes.length === 0 &&
+                  selectedSizes.length === 0 &&
+                  selectedStates.length === 0
+                  ? originalData
+                  : filteredData,
+              );
+          };
+
+          // Add listeners to type checkboxes
+          typeCheckboxes.forEach((input) => {
             input.addEventListener("change", (event) => {
-              // Update selected types based on checkbox state
               if (event.target.checked) {
                 selectedTypes.push(event.target.value);
               } else {
@@ -208,25 +288,39 @@ export class OSMap extends HTMLElement {
                   (type) => type !== event.target.value,
                 );
               }
-
-              // Filter the data based on selected types
-              const filteredData = {
-                type: originalData.type,
-                features: originalData.features.filter((feature) =>
-                  selectedTypes.includes(feature.properties.type),
-                ),
-              };
-
-              // Update the map source with filtered data
-              map
-                .getSource("locations")
-                .setData(
-                  selectedTypes.length === 0 ? originalData : filteredData,
-                );
+              applyFilters();
             });
           });
 
-          /* End filter by type */
+          // Add listeners to size checkboxes
+          sizeCheckboxes.forEach((input) => {
+            input.addEventListener("change", (event) => {
+              if (event.target.checked) {
+                selectedSizes.push(event.target.value);
+              } else {
+                selectedSizes = selectedSizes.filter(
+                  (size) => size !== event.target.value,
+                );
+              }
+              applyFilters();
+            });
+          });
+
+          // Add listeners to state checkboxes
+          stateCheckboxes.forEach((input) => {
+            input.addEventListener("change", (event) => {
+              if (event.target.checked) {
+                selectedStates.push(event.target.value);
+              } else {
+                selectedStates = selectedStates.filter(
+                  (size) => size !== event.target.value,
+                );
+              }
+              applyFilters();
+            });
+          });
+
+          /* End of filtering */
 
           map.on("mouseenter", "clusters", () => {
             map.getCanvas().style.cursor = "pointer";

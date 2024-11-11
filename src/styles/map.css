@@ -1,4 +1,10 @@
 os-map {
+  color: #212121;
+
+  * {
+    box-sizing: border-box;
+  }
+
   font-family:
     Helvetica Neue,
     Arial,
@@ -9,38 +15,73 @@ os-map {
     height: 1000px;
   }
 
+  .filters {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .filters-title {
+    font-size: 18px;
+  }
+
+  .filters-dropdowns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
   .dropdown {
     position: relative;
-    width: 254px;
-    margin-bottom: 20px;
   }
 
   .dropdown-toggle {
-    width: 176px;
-    padding: 10px 0;
+    width: fit-content;
+    padding: 0;
+    letter-spacing: 0.8px;
     background: white;
     border-bottom: 2px solid #212121;
     border-top: none;
     border-right: none;
     border-left: none;
-    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .dropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 0;
-    width: 200px;
+    width: 254px;
+    font-size: 18px;
+    max-height: 260px;
+    overflow-y: auto;
     background: white;
     border: 1px solid #212121;
     display: none;
-    padding: 10px;
+    padding: 10px 16px;
     z-index: 1;
+  }
+
+  .dropdown-menu input[type="checkbox"] {
+    display: none;
+  }
+
+  #filter-size .dropdown-menu {
+    width: 200px;
+  }
+
+  #filter-state .dropdown-menu {
+    width: 220px;
   }
 
   .dropdown-menu.show {
@@ -60,13 +101,42 @@ os-map {
     cursor: pointer;
   }
 
+  .empty-checkbox {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #212121;
+    flex-shrink: 0;
+  }
+
+  .check-icon {
+    background-color: #e2231a;
+  }
+
+  .dropdown-item .check-icon {
+    display: none;
+  }
+
+  .dropdown-item .empty-checkbox {
+    display: inline-block;
+  }
+
+  .dropdown-item input[type="checkbox"]:checked ~ .check-icon {
+    display: inline-block;
+  }
+
+  .dropdown-item input[type="checkbox"]:checked ~ .empty-checkbox {
+    display: none;
+  }
+
   .badge {
-    padding: 5px 12px;
-    border-radius: 20px;
+    padding: 4px 8px;
+    border-radius: 40px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
+    letter-spacing: 0.8px;
+    flex-shrink: 0;
   }
 
   .enterprise {
@@ -97,14 +167,13 @@ os-map {
   }
 
   .arrow {
-    font-size: 10px;
+    margin-left: 16px;
   }
 
   .mapboxgl-popup-content {
     width: 350px;
     padding: 0;
     color: #212121;
-    border-bottom: 1px solid #212121;
     border-radius: 0;
 
     .mapboxgl-popup-close-button {
@@ -112,17 +181,15 @@ os-map {
     }
 
     .popup-content-description {
-      padding: 16px;
-      font-size: 14px;
-      line-height: 1.5;
+      padding: 24px 16px;
 
       h3 {
         font-size: 24px;
-        line-height: 1.5;
+        line-height: normal;
         font-weight: 500;
         margin-top: 0;
         margin-top: 16px;
-        margin-bottom: 24px;
+        margin-bottom: 26px;
       }
     }
 
@@ -151,7 +218,43 @@ os-map {
     }
   }
 
-  .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
-    border-top-color: #212121;
+  .mapboxgl-popup-anchor-right {
+    .mapboxgl-popup-tip {
+      border-left-color: #212121;
+    }
+
+    .mapboxgl-popup-content {
+      border-right: 1px solid #212121;
+    }
+  }
+
+  .mapboxgl-popup-anchor-left {
+    .mapboxgl-popup-tip {
+      border-right-color: #212121;
+    }
+
+    .mapboxgl-popup-content {
+      border-left: 1px solid #212121;
+    }
+  }
+
+  .mapboxgl-popup-anchor-bottom {
+    .mapboxgl-popup-tip {
+      border-top-color: #212121;
+    }
+
+    .mapboxgl-popup-content {
+      border-bottom: 1px solid #212121;
+    }
+  }
+
+  .mapboxgl-popup-anchor-top {
+    .mapboxgl-popup-tip {
+      border-bottom-color: #212121;
+    }
+
+    .mapboxgl-popup-content {
+      border-top: 1px solid #212121;
+    }
   }
 }

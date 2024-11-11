@@ -87,6 +87,7 @@ export class OSMap extends HTMLElement {
       fetch(endpoint)
         .then((response) => response.json())
         .then((data) => {
+          map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "bottom-right");
           map.addSource("locations", {
             type: "geojson",
             data: data,

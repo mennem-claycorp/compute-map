@@ -215,6 +215,7 @@ os-map {
     img {
       width: 350px;
       height: 120px;
+      object-fit: cover;
     }
   }
 

@@ -11,23 +11,11 @@ import locationIcon from "../static/location_on.svg";
 import arrowDownIcon from "../static/arrow_drop_down.svg";
 import checkIcon from "../static/check_small.svg";
 
-const filterDropdowns = [
-  typeDropdown,
-  sizeDropdown,
-  stateDropdown,
-];
-
-const images = {
-  Hyperscale: "https://i.ibb.co/Rpq1qxn/hyperscale.jpg",
-  "Quantum Computing": "https://i.ibb.co/XC0Ds2D/quantum-campus.jpg",
-  AI: "https://i.ibb.co/bFWgBtW/ai.jpg",
-  Colocation: "https://i.ibb.co/pLRKg1M/colocation.jpg",
-  Enterprise: "https://i.ibb.co/pLRKg1M/colocation.jpg",
-};
+const filterDropdowns = [typeDropdown, sizeDropdown, stateDropdown];
 
 const classnames = {
   Hyperscale: "hyperscale",
-  "Quantum Computing": "quantum",
+  "Quantum Campus": "quantum",
   AI: "ai",
   Colocation: "colocation",
   Enterprise: "enterprise",
@@ -87,7 +75,11 @@ export class OSMap extends HTMLElement {
       fetch(endpoint)
         .then((response) => response.json())
         .then((data) => {
-          map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "bottom-right");
+          map.addImage("location-icon", arrowDownIcon);
+          map.addControl(
+            new mapboxgl.NavigationControl({ showCompass: false }),
+            "bottom-right",
+          );
           map.addSource("locations", {
             type: "geojson",
             data: data,
@@ -141,14 +133,26 @@ export class OSMap extends HTMLElement {
             },
           });
 
+          // Load all unique icons from the data
+          const uniqueIcons = [
+            ...new Set(data.features.map((f) => f.properties.iconUrl)),
+          ];
+          uniqueIcons.forEach((iconUrl) => {
+            map.loadImage(iconUrl, (error, image) => {
+              if (error) throw error;
+              map.addImage(iconUrl, image);
+            });
+          });
+
           map.addLayer({
             id: "unclustered-point",
-            type: "circle",
+            type: "symbol",
             source: "locations",
             filter: ["!", ["has", "point_count"]],
-            paint: {
-              "circle-radius": 14,
-              "circle-color": ["get", "colorCode"],
+            layout: {
+              "icon-image": ["get", "iconUrl"],
+              "icon-size": 0.8,
+              "icon-allow-overlap": true,
             },
           });
 
@@ -176,7 +180,7 @@ export class OSMap extends HTMLElement {
             const properties = e.features[0].properties;
 
             const popupContent = `
-          <img src="${images[properties.type]}" />
+          <img src="${properties.image}" />
           <div class="popup-content-description">
             <span class="badge ${classnames[properties.type]}">${properties.type}</span>
             <h3>${properties.name}</h3>
@@ -191,7 +195,7 @@ export class OSMap extends HTMLElement {
           </div>
         `;
 
-            new mapboxgl.Popup()
+            new mapboxgl.Popup({ offset: 20 })
               .setLngLat(coordinates)
               .setHTML(popupContent)
               .addTo(map);

@@ -14,9 +14,9 @@
         "state": "GA",
         "region": "Southeast",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -33,9 +33,9 @@
         "state": "AZ",
         "region": "Southwest",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -52,9 +52,9 @@
         "state": "MO",
         "region": "Midwest",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -71,9 +71,9 @@
         "state": "OR",
         "region": "Northwest",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -90,9 +90,9 @@
         "state": "VA",
         "region": "Southeast",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -109,9 +109,9 @@
         "state": "AL",
         "region": "Southeast",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -123,14 +123,14 @@
       },
       "properties": {
         "name": "NCSA Petasca Quantum Com",
-        "type": "Quantum Computing",
+        "type": "Quantum Campus",
         "city": "Champaign",
         "state": "IL",
         "region": "Midwest",
         "size": "1+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/zVPLfBS/Quantum-Campus.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/RYpFc2y/location-quantum.png",
         "colorCode": "#1476E8"
       }
     },
@@ -147,9 +147,9 @@
         "state": "WY",
         "region": "Mountain West",
         "size": "60+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -166,9 +166,9 @@
         "state": "IL",
         "region": "Midwest",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -185,9 +185,9 @@
         "state": "IA",
         "region": "Midwest",
         "size": "20+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -204,9 +204,9 @@
         "state": "IA",
         "region": "Midwest",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -223,9 +223,9 @@
         "state": "WA",
         "region": "Northwest",
         "size": "70+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -242,9 +242,9 @@
         "state": "AZ",
         "region": "Southwest",
         "size": "90+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -256,14 +256,14 @@
       },
       "properties": {
         "name": "Quantum Research Center",
-        "type": "Quantum Computing",
+        "type": "Quantum Campus",
         "city": "Boulder",
         "state": "CO",
         "region": "Mountain West",
         "size": "1+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/zVPLfBS/Quantum-Campus.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/RYpFc2y/location-quantum.png",
         "colorCode": "#1476E8"
       }
     },
@@ -280,9 +280,9 @@
         "state": "TX",
         "region": "Southwest",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -299,9 +299,9 @@
         "state": "NC",
         "region": "Southeast",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -318,9 +318,9 @@
         "state": "UT",
         "region": "Mountain West",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -337,9 +337,9 @@
         "state": "WA",
         "region": "Northwest",
         "size": "90+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -351,14 +351,14 @@
       },
       "properties": {
         "name": "MIT Quantum Lab",
-        "type": "Quantum Computing",
+        "type": "Quantum Campus",
         "city": "Cambridge",
         "state": "MA",
         "region": "Northeast",
         "size": "1+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/zVPLfBS/Quantum-Campus.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/RYpFc2y/location-quantum.png",
         "colorCode": "#1476E8"
       }
     },
@@ -375,9 +375,9 @@
         "state": "OR",
         "region": "Northwest",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -394,9 +394,9 @@
         "state": "NV",
         "region": "Southwest",
         "size": "20+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -413,9 +413,9 @@
         "state": "FL",
         "region": "Southeast",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -432,9 +432,9 @@
         "state": "MI",
         "region": "Midwest",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -446,14 +446,14 @@
       },
       "properties": {
         "name": "Sandia Quantum Center",
-        "type": "Quantum Computing",
+        "type": "Quantum Campus",
         "city": "Albuquerque",
         "state": "NM",
         "region": "Southwest",
         "size": "1+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/zVPLfBS/Quantum-Campus.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/RYpFc2y/location-quantum.png",
         "colorCode": "#1476E8"
       }
     },
@@ -470,9 +470,9 @@
         "state": "TN",
         "region": "Southeast",
         "size": "70+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -489,9 +489,9 @@
         "state": "NY",
         "region": "Northeast",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -508,9 +508,9 @@
         "state": "CA",
         "region": "West",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -527,9 +527,9 @@
         "state": "DC",
         "region": "Northeast",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -546,9 +546,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -560,14 +560,14 @@
       },
       "properties": {
         "name": "Maryland Quantum Center",
-        "type": "Quantum Computing",
+        "type": "Quantum Campus",
         "city": "Rockville",
         "state": "MD",
         "region": "Northeast",
         "size": "1+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/zVPLfBS/Quantum-Campus.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/RYpFc2y/location-quantum.png",
         "colorCode": "#1476E8"
       }
     },
@@ -584,9 +584,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "20+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -603,9 +603,9 @@
         "state": "MD",
         "region": "Northeast",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -622,9 +622,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "80+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -641,9 +641,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "90+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     },
@@ -660,9 +660,9 @@
         "state": "MD",
         "region": "Northeast",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/k6xrWzz/AI-Data-Center-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Rzrzgx7/location-ai.png",
         "colorCode": "#28A745"
       }
     },
@@ -679,9 +679,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "30+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/Y3M9xqk/location-colocation.png",
         "colorCode": "#4E2751"
       }
     },
@@ -698,9 +698,9 @@
         "state": "MD",
         "region": "Northeast",
         "size": "40+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/PgrDnP5/Co-location-min.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/dMt1LSK/location-enterprise.png",
         "colorCode": "#212121"
       }
     },
@@ -717,9 +717,9 @@
         "state": "VA",
         "region": "Northeast",
         "size": "90+ MW",
-        "image": "",
+        "image": "https://i.ibb.co/THLRmvt/Hyperscale-1.jpg",
         "integratedServices": "",
-        "iconUrl": "",
+        "iconUrl": "https://i.ibb.co/GTsHTgv/location-hyperscale.png",
         "colorCode": "#FFC107"
       }
     }

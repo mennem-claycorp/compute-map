@@ -9,174 +9,202 @@ os-map {
     Arial,
     sans-serif;
   line-height: normal;
+}
 
-  .map-container {
-    position: relative;
-    height: 1000px;
-    width: 100%;
+.os-map-container {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+}
+
+.os-map-filters {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.os-map-filters-title {
+  font-size: 18px;
+}
+
+.os-map-filters-dropdowns {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.os-map-dropdown {
+  position: relative;
+}
+
+.os-map-dropdown-toggle {
+  width: fit-content;
+  padding: 0;
+  letter-spacing: 0.8px;
+  border-bottom: 2px solid #212121;
+  border-top: none;
+  background: transparent;
+  border-right: none;
+  border-left: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.os-map-dropdown-menu {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 254px;
+  font-size: 18px;
+  max-height: 260px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #212121;
+  display: none;
+  padding: 16px;
+  z-index: 1;
+}
+
+.os-map-dropdown-menu input[type="checkbox"] {
+  display: none;
+}
+
+#os-map-filter-size .os-map-dropdown-menu {
+  width: 200px;
+}
+
+#os-map-filter-state .os-map-dropdown-menu {
+  width: 220px;
+}
+
+.os-map-dropdown-menu.show {
+  display: block;
+}
+
+.os-map-arrow.rotate {
+  transform: rotate(180deg);
+  transition: transform 0.2s ease;
+}
+
+.os-map-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.os-map-empty-checkbox {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #212121;
+  flex-shrink: 0;
+}
+
+.os-map-check-icon {
+  background-color: #e2231a;
+}
+
+.os-map-dropdown-item .os-map-check-icon {
+  display: none;
+}
+
+.os-map-dropdown-item .os-map-empty-checkbox {
+  display: inline-block;
+}
+
+.os-map-dropdown-item input[type="checkbox"]:checked ~ .os-map-check-icon {
+  display: inline-block;
+}
+
+.os-map-dropdown-item input[type="checkbox"]:checked ~ .os-map-empty-checkbox {
+  display: none;
+}
+
+.os-map-badge {
+  padding: 4px 8px;
+  border-radius: 40px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  flex-shrink: 0;
+}
+
+.os-map-enterprise {
+  background-color: #212121;
+}
+
+.os-map-quantum {
+  background-color: #1476e8;
+}
+
+.os-map-ai {
+  background-color: #28a745;
+}
+
+.os-map-colocation {
+  background-color: #4e2751;
+}
+
+.os-map-hyperscale {
+  color: #212121;
+  background-color: #ffc107;
+}
+
+.os-map-arrow {
+  margin-left: 16px;
+}
+
+.os-map-popup-content-description {
+  padding: 24px 16px;
+
+  h3 {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 500;
+    margin-top: 0;
+    margin-top: 16px;
+    margin-bottom: 26px;
   }
+}
 
+.os-map-popup-content-footer {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  gap: 20px;
+
+  .os-map-popup-content-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+  }
+}
+
+.os-map-popup-content-footer-item {
+  display: flex;
+  align-items: center;
+}
+
+.os-map-container {
   .mapboxgl-map {
     width: 100%;
     position: absolute;
     top: 0;
     bottom: 0;
-  }
-
-  .filters {
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    flex-wrap: wrap;
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
-  .filters-title {
-    font-size: 18px;
-  }
-
-  .filters-dropdowns {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  .dropdown {
-    position: relative;
-  }
-
-  .dropdown-toggle {
-    width: fit-content;
-    padding: 0;
-    letter-spacing: 0.8px;
-    border-bottom: 2px solid #212121;
-    border-top: none;
-    background: transparent;
-    border-right: none;
-    border-left: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    font-size: 16px;
-  }
-
-  .dropdown-menu {
-    position: absolute;
-    top: 110%;
-    left: 0;
-    width: 254px;
-    font-size: 18px;
-    max-height: 260px;
-    overflow-y: auto;
-    background: #fff;
-    border: 1px solid #212121;
-    display: none;
-    padding: 16px;
-    z-index: 1;
-  }
-
-  .dropdown-menu input[type="checkbox"] {
-    display: none;
-  }
-
-  #filter-size .dropdown-menu {
-    width: 200px;
-  }
-
-  #filter-state .dropdown-menu {
-    width: 220px;
-  }
-
-  .dropdown-menu.show {
-    display: block;
-  }
-
-  .arrow.rotate {
-    transform: rotate(180deg);
-    transition: transform 0.2s ease;
-  }
-
-  .dropdown-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 8px 0;
-    cursor: pointer;
-  }
-
-  .empty-checkbox {
-    width: 24px;
-    height: 24px;
-    border: 1px solid #212121;
-    flex-shrink: 0;
-  }
-
-  .check-icon {
-    background-color: #e2231a;
-  }
-
-  .dropdown-item .check-icon {
-    display: none;
-  }
-
-  .dropdown-item .empty-checkbox {
-    display: inline-block;
-  }
-
-  .dropdown-item input[type="checkbox"]:checked ~ .check-icon {
-    display: inline-block;
-  }
-
-  .dropdown-item input[type="checkbox"]:checked ~ .empty-checkbox {
-    display: none;
-  }
-
-  .badge {
-    padding: 4px 8px;
-    border-radius: 40px;
-    color: white;
-    font-size: 16px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.8px;
-    flex-shrink: 0;
-  }
-
-  .enterprise {
-    background-color: #212121;
-  }
-
-  .quantum {
-    background-color: #1476e8;
-  }
-
-  .ai {
-    background-color: #28a745;
-  }
-
-  .colocation {
-    background-color: #4e2751;
-  }
-
-  .hyperscale {
-    color: #212121;
-    background-color: #ffc107;
-  }
-
-  input[type="checkbox"] {
-    width: 16px;
-    height: 16px;
-    margin: 0;
-  }
-
-  .arrow {
-    margin-left: 16px;
   }
 
   .mapboxgl-popup-content {
@@ -189,39 +217,7 @@ os-map {
       display: none;
     }
 
-    .popup-content-description {
-      padding: 24px 16px;
-
-      h3 {
-        font-size: 24px;
-        line-height: normal;
-        font-weight: 500;
-        margin-top: 0;
-        margin-top: 16px;
-        margin-bottom: 26px;
-      }
-    }
-
-    .popup-content-footer {
-      display: flex;
-      align-items: center;
-      font-size: 18px;
-      font-weight: 400;
-      gap: 20px;
-
-      img {
-        width: 24px;
-        height: 24px;
-        margin-right: 6px;
-      }
-    }
-
-    .popup-content-footer-item {
-      display: flex;
-      align-items: center;
-    }
-
-    img {
+    .os-map-popup-content-image {
       width: 350px;
       height: 120px;
       object-fit: cover;

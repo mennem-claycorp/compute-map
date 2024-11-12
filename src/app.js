@@ -13,11 +13,11 @@ import checkIcon from "../static/check_small.svg";
 const filterDropdowns = [typeDropdown, sizeDropdown, stateDropdown];
 
 const classnames = {
-  Hyperscale: "hyperscale",
-  "Quantum Campus": "quantum",
-  AI: "ai",
-  Colocation: "colocation",
-  Enterprise: "enterprise",
+  Hyperscale: "os-map-hyperscale",
+  "Quantum Campus": "os-map-quantum",
+  AI: "os-map-ai",
+  Colocation: "os-map-colocation",
+  Enterprise: "os-map-enterprise",
 };
 
 export class OSMap extends HTMLElement {
@@ -51,25 +51,25 @@ export class OSMap extends HTMLElement {
     filtersTitle.textContent = "Filter by:";
     filtersContainer.appendChild(filtersTitle);
     filtersContainer.appendChild(dropdownsContainer);
-    dropdownsContainer.classList.add("filters-dropdowns");
-    filtersTitle.classList.add("filters-title");
-    filtersContainer.classList.add("filters");
+    dropdownsContainer.classList.add("os-map-filters-dropdowns");
+    filtersTitle.classList.add("os-map-filters-title");
+    filtersContainer.classList.add("os-map-filters");
     this.appendChild(filtersContainer);
 
     filterDropdowns.forEach((template) => {
       dropdownsContainer.innerHTML += template;
     });
 
-    this.querySelectorAll(".check-icon").forEach((imgTag) => {
+    this.querySelectorAll(".os-map-check-icon").forEach((imgTag) => {
       imgTag.src = checkIcon;
     });
 
-    this.querySelectorAll(".arrow").forEach((imgTag) => {
+    this.querySelectorAll(".os-map-arrow").forEach((imgTag) => {
       imgTag.src = arrowDownIcon;
     });
 
     const mapContainer = document.createElement("div");
-    mapContainer.classList.add("map-container");
+    mapContainer.classList.add("os-map-container");
 
     const mapWrapper = document.createElement("div");
     mapWrapper.id = id;
@@ -373,9 +373,13 @@ export class OSMap extends HTMLElement {
           /* Filtering */
           const setupDropdown = (containerId) => {
             const container = document.getElementById(containerId);
-            const dropdownToggle = container.querySelector(".dropdown-toggle");
-            const dropdownMenu = container.querySelector(".dropdown-menu");
-            const arrow = dropdownToggle.querySelector(".arrow");
+            const dropdownToggle = container.querySelector(
+              ".os-map-dropdown-toggle",
+            );
+            const dropdownMenu = container.querySelector(
+              ".os-map-dropdown-menu",
+            );
+            const arrow = dropdownToggle.querySelector(".os-map-arrow");
 
             dropdownToggle.addEventListener("click", () => {
               dropdownMenu.classList.toggle("show");
@@ -413,9 +417,9 @@ export class OSMap extends HTMLElement {
           };
 
           // Setup dropdowns
-          const typeCheckboxes = setupDropdown("filter-type");
-          const sizeCheckboxes = setupDropdown("filter-size");
-          const stateCheckboxes = setupDropdown("filter-state");
+          const typeCheckboxes = setupDropdown("os-map-filter-type");
+          const sizeCheckboxes = setupDropdown("os-map-filter-size");
+          const stateCheckboxes = setupDropdown("os-map-filter-state");
 
           // Track selected filters
           let originalData = data;
@@ -542,16 +546,16 @@ export class OSMap extends HTMLElement {
 
   buildPopupContent(properties) {
     return `
-            <img src="${properties.image}" />
-            <div class="popup-content-description">
-              <span class="badge ${classnames[properties.type]}">${properties.type}</span>
+            <img class="os-map-popup-content-image" src="${properties.image}" />
+            <div class="os-map-popup-content-description">
+              <span class="os-map-badge ${classnames[properties.type]}">${properties.type}</span>
               <h3>${properties.name}</h3>
-              <div class="popup-content-footer">
-                <div class="popup-content-footer-item">
-                  <img src="${chargerIcon}" /><span>${properties.size}</span>
+              <div class="os-map-popup-content-footer">
+                <div class="os-map-popup-content-footer-item">
+                  <img class="os-map-popup-content-icon" src="${chargerIcon}" /><span>${properties.size}</span>
                 </div>
-                <div class="popup-content-footer-item">
-                  <img src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
+                <div class="os-map-popup-content-footer-item">
+                  <img class="os-map-popup-content-icon" src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
                 </div>
               </div>
             </div>

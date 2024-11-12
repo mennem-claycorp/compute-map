@@ -99,7 +99,7 @@ export class OSMap extends HTMLElement {
             data: data,
             cluster: true,
             clusterMaxZoom: 14,
-            clusterRadius: 50,
+            clusterRadius: 40,
           });
 
           map.addLayer({
@@ -176,14 +176,172 @@ export class OSMap extends HTMLElement {
               layers: ["clusters"],
             });
             const clusterId = features[0].properties.cluster_id;
+            const clusterCenter = features[0].geometry.coordinates;
+
+            map.easeTo({
+              center: clusterCenter,
+              duration: 500,
+            });
+
+            map.setPaintProperty("clusters", "circle-opacity", [
+              "case",
+              ["==", ["get", "cluster_id"], clusterId],
+              0,
+              1,
+            ]);
+            map.setPaintProperty("cluster-count", "text-opacity", [
+              "case",
+              ["==", ["get", "cluster_id"], clusterId],
+              0,
+              1,
+            ]);
+
             map
               .getSource("locations")
-              .getClusterExpansionZoom(clusterId, (err, zoom) => {
+              .getClusterLeaves(clusterId, 100, 0, (err, clusterFeatures) => {
                 if (err) return;
 
-                map.easeTo({
-                  center: features[0].geometry.coordinates,
-                  zoom: zoom,
+                // Spread points in a circle around the cluster
+                const pointCount = clusterFeatures.length;
+                const currentZoom = map.getZoom();
+
+                // Base radius starts larger and decreases as you zoom in
+                // Multiply by pointCount for more spread with more points
+                const radius =
+                  (10 / Math.pow(2, currentZoom)) * Math.log2(pointCount + 1);
+
+                // Adjust for latitude to maintain circular shape
+                const latitudeAdjustment = Math.cos(
+                  (clusterCenter[1] * Math.PI) / 180,
+                );
+
+                // Spread points in a circle around the cluster
+                clusterFeatures = clusterFeatures.map((feature, index) => {
+                  const angle = (index / clusterFeatures.length) * 2 * Math.PI;
+                  const newLng =
+                    clusterCenter[0] +
+                    (radius * Math.cos(angle)) / latitudeAdjustment;
+                  const newLat = clusterCenter[1] + radius * Math.sin(angle);
+
+                  return {
+                    ...feature,
+                    geometry: {
+                      ...feature.geometry,
+                      coordinates: [newLng, newLat],
+                    },
+                  };
+                });
+
+                // Create expanded cluster source with spread points
+                const expandedClusterSource = {
+                  type: "geojson",
+                  data: {
+                    type: "FeatureCollection",
+                    features: clusterFeatures,
+                  },
+                };
+
+                // Create lines data connecting cluster center to each point
+                const linesData = {
+                  type: "FeatureCollection",
+                  features: clusterFeatures.map((feature) => ({
+                    type: "Feature",
+                    geometry: {
+                      type: "LineString",
+                      coordinates: [
+                        clusterCenter,
+                        feature.geometry.coordinates,
+                      ],
+                    },
+                  })),
+                };
+
+                // Add or update the lines source and layer
+                if (!map.getSource("cluster-lines")) {
+                  map.addSource("cluster-lines", {
+                    type: "geojson",
+                    data: linesData,
+                  });
+
+                  map.addLayer({
+                    id: "cluster-lines-layer",
+                    type: "line",
+                    source: "cluster-lines",
+                    layout: {
+                      "line-cap": "round",
+                      "line-join": "round",
+                    },
+                    paint: {
+                      "line-color": "#666",
+                      "line-width": 1,
+                      "line-opacity": 0.8,
+                      "line-dasharray": [1, 2],
+                    },
+                  });
+                } else {
+                  map.getSource("cluster-lines").setData(linesData);
+                }
+
+                // Add the new source if it doesn't exist
+                if (!map.getSource("expanded-cluster")) {
+                  map.addSource("expanded-cluster", expandedClusterSource);
+
+                  // Add a new layer for the expanded cluster points
+                  map.addLayer({
+                    id: "expanded-cluster-points",
+                    type: "symbol",
+                    source: "expanded-cluster",
+                    layout: {
+                      "icon-image": ["get", "iconUrl"],
+                      "icon-size": 0.8,
+                      "icon-allow-overlap": true,
+                    },
+                  });
+
+                  // Add the same click handler for popups
+                  map.on("click", "expanded-cluster-points", (e) => {
+                    const coordinates =
+                      e.features[0].geometry.coordinates.slice();
+                    const properties = e.features[0].properties;
+
+                    new mapboxgl.Popup({ offset: 20 })
+                      .setLngLat(coordinates)
+                      .setHTML(this.buildPopupContent(properties))
+                      .addTo(map);
+                  });
+                } else {
+                  map
+                    .getSource("expanded-cluster")
+                    .setData(expandedClusterSource.data);
+                }
+
+                // Click handler to hide expanded cluster
+                map.on("click", (e) => {
+                  // Check if click is not on a cluster
+                  const features = map.queryRenderedFeatures(e.point, {
+                    layers: ["clusters", "expanded-cluster-points"],
+                  });
+
+                  if (features.length === 0) {
+                    // Hide expanded cluster and lines
+                    if (map.getSource("expanded-cluster")) {
+                      map.getSource("expanded-cluster").setData({
+                        type: "FeatureCollection",
+                        features: [],
+                      });
+                    }
+
+                    if (map.getSource("cluster-lines")) {
+                      map.getSource("cluster-lines").setData({
+                        type: "FeatureCollection",
+                        features: [],
+                      });
+                    }
+
+                    // Reset cluster opacity
+                    map.setPaintProperty("clusters", "circle-opacity", 1);
+                    map.setPaintProperty("cluster-count", "text-opacity", 1);
+                  }
                 });
               });
           });
@@ -206,25 +364,9 @@ export class OSMap extends HTMLElement {
             const coordinates = e.features[0].geometry.coordinates.slice();
             const properties = e.features[0].properties;
 
-            const popupContent = `
-            <img src="${properties.image}" />
-            <div class="popup-content-description">
-              <span class="badge ${classnames[properties.type]}">${properties.type}</span>
-              <h3>${properties.name}</h3>
-              <div class="popup-content-footer">
-                <div class="popup-content-footer-item">
-                  <img src="${chargerIcon}" /><span>${properties.size}</span>
-                </div>
-                <div class="popup-content-footer-item">
-                  <img src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
-                </div>
-              </div>
-            </div>
-          `;
-
             new mapboxgl.Popup({ offset: 20 })
               .setLngLat(coordinates)
-              .setHTML(popupContent)
+              .setHTML(this.buildPopupContent(properties))
               .addTo(map);
           });
 
@@ -354,26 +496,67 @@ export class OSMap extends HTMLElement {
 
           /* End of filtering */
 
-          map.on("mouseenter", "clusters", () => {
-            map.getCanvas().style.cursor = "pointer";
+          // Clean up expanded clusters when zooming
+          map.on("zoom", () => {
+            if (map.getSource("expanded-cluster")) {
+              map.getSource("expanded-cluster").setData({
+                type: "FeatureCollection",
+                features: [],
+              });
+            }
+
+            if (map.getSource("cluster-lines")) {
+              map.getSource("cluster-lines").setData({
+                type: "FeatureCollection",
+                features: [],
+              });
+            }
+
+            // Reset cluster opacity
+            map.setPaintProperty("clusters", "circle-opacity", 1);
+            map.setPaintProperty("cluster-count", "text-opacity", 1);
           });
 
-          map.on("mouseleave", "clusters", () => {
-            map.getCanvas().style.cursor = "";
-          });
+          // Handle cursor style for interactive layers
+          const interactiveLayers = [
+            "clusters",
+            "unclustered-point",
+            "expanded-cluster-points",
+          ];
 
-          map.on("mouseenter", "unclustered-point", () => {
-            map.getCanvas().style.cursor = "pointer";
-          });
+          interactiveLayers.forEach((layer) => {
+            map.on("mouseenter", layer, () => {
+              map.getCanvas().style.cursor = "pointer";
+            });
 
-          map.on("mouseleave", "unclustered-point", () => {
-            map.getCanvas().style.cursor = "";
+            map.on("mouseleave", layer, () => {
+              map.getCanvas().style.cursor = "";
+            });
           });
         })
         .catch((error) => {
           console.error("Error loading map data:", error);
         });
     });
+  }
+
+  buildPopupContent(properties) {
+    return `
+            <img src="${properties.image}" />
+            <div class="popup-content-description">
+              <span class="badge ${classnames[properties.type]}">${properties.type}</span>
+              <h3>${properties.name}</h3>
+              <div class="popup-content-footer">
+                <div class="popup-content-footer-item">
+                  <img src="${chargerIcon}" /><span>${properties.size}</span>
+                </div>
+                <div class="popup-content-footer-item">
+                  <img src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
+                </div>
+              </div>
+            </div>
+
+        `;
   }
 }
 

@@ -15,6 +15,7 @@ Add the `<os-map>` component to your interface using the following attributes:
 | `data-os-map-lng` | Initial longitude position of the map | `-98.5795` |
 | `data-os-map-zoom` | Initial zoom level of the map | `4` |
 | `data-os-map-style` | Mapbox style to be used for the map | `mapbox://styles/mapbox/streets-v11` |
+| `data-os-map-lock` | Prevents map zooming when scrolling | `true` |
 
 # Development
 

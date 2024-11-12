@@ -1,7 +1,6 @@
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import mapStyles from "./styles/map.css";
-import data from "./locations.json";
 import typeDropdown from "./dropdowns/filter-type.html";
 import sizeDropdown from "./dropdowns/filter-size.html";
 import stateDropdown from "./dropdowns/filter-state.html";
@@ -44,6 +43,7 @@ export class OSMap extends HTMLElement {
     const mapLongitude = this.getAttribute("data-os-map-lng");
     const mapZoom = this.getAttribute("data-os-map-zoom");
     const mapStyle = this.getAttribute("data-os-map-style");
+    const mapLock = this.getAttribute("data-os-map-lock") === "true";
 
     const filtersContainer = document.createElement("div");
     const dropdownsContainer = document.createElement("div");
@@ -82,6 +82,7 @@ export class OSMap extends HTMLElement {
       center: [parseFloat(mapLongitude), parseFloat(mapLatitude)],
       zoom: parseFloat(mapZoom),
       style: mapStyle,
+      scrollZoom: !mapLock,
     });
 
     map.on("load", () => {

@@ -41,20 +41,20 @@ module.exports = {
         oneOf: [
           {
             // Convert only map.css to string
-            include: path.resolve(__dirname, 'src/styles/map.css'),
+            include: path.resolve(__dirname, "src/styles/map.css"),
             use: [
               {
-                loader: 'raw-loader',
+                loader: "raw-loader",
                 options: {
-                  esModule: false
-                }
-              }
-            ]
+                  esModule: false,
+                },
+              },
+            ],
           },
           {
-            use: ['style-loader', 'css-loader']
-          }
-        ]
+            use: ["style-loader", "css-loader"],
+          },
+        ],
       },
       {
         test: /\.svg$/,

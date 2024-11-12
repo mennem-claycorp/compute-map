@@ -1,18 +1,26 @@
 os-map {
-  color: #212121;
-
   * {
     box-sizing: border-box;
   }
 
+  color: #212121;
   font-family:
     Helvetica Neue,
     Arial,
     sans-serif;
+  line-height: normal;
 
-  .map {
-    width: 100%;
+  .map-container {
+    position: relative;
     height: 1000px;
+    width: 100%;
+  }
+
+  .mapboxgl-map {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
   }
 
   .filters {
@@ -20,6 +28,7 @@ os-map {
     gap: 24px;
     align-items: center;
     justify-content: space-between;
+    margin-top: 40px;
     margin-bottom: 40px;
     flex-wrap: wrap;
     padding-left: 24px;
@@ -45,9 +54,9 @@ os-map {
     width: fit-content;
     padding: 0;
     letter-spacing: 0.8px;
-    background: white;
     border-bottom: 2px solid #212121;
     border-top: none;
+    background: transparent;
     border-right: none;
     border-left: none;
     display: flex;
@@ -65,10 +74,10 @@ os-map {
     font-size: 18px;
     max-height: 260px;
     overflow-y: auto;
-    background: white;
+    background: #fff;
     border: 1px solid #212121;
     display: none;
-    padding: 10px 16px;
+    padding: 16px;
     z-index: 1;
   }
 
@@ -274,8 +283,9 @@ os-map {
     display: flex;
   }
 
-  .mapboxgl-ctrl-group button+button {
+  .mapboxgl-ctrl-group button + button {
     border-radius: 0;
+    border: 1px solid #212121;
   }
 
   .mapboxgl-ctrl-group button:last-child {

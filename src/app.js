@@ -1,6 +1,6 @@
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import "./styles/map.css";
+import mapStyles from "./styles/map.css";
 import data from "./locations.json";
 import typeDropdown from "./dropdowns/filter-type.html";
 import sizeDropdown from "./dropdowns/filter-size.html";
@@ -22,11 +22,21 @@ const classnames = {
 };
 
 export class OSMap extends HTMLElement {
+  static defaultStylesAdded = false;
+
   constructor() {
     super();
+    this.defaultStyles = `<style>${mapStyles}</style>`;
   }
 
   connectedCallback() {
+    // Add default styles if they haven't been added yet
+    if (!OSMap.defaultStylesAdded) {
+      document.head.insertAdjacentHTML("afterbegin", this.defaultStyles);
+
+      OSMap.defaultStylesAdded = true;
+    }
+
     const id = this.getAttribute("id") || "map";
     const endpoint = this.getAttribute("data-os-endpoint");
     const key = this.getAttribute("data-os-key");
@@ -59,8 +69,11 @@ export class OSMap extends HTMLElement {
     });
 
     const mapContainer = document.createElement("div");
-    mapContainer.id = id;
-    mapContainer.classList.add("map");
+    mapContainer.classList.add("map-container");
+
+    const mapWrapper = document.createElement("div");
+    mapWrapper.id = id;
+    mapContainer.appendChild(mapWrapper);
     this.appendChild(mapContainer);
 
     mapboxgl.accessToken = key;
@@ -174,26 +187,39 @@ export class OSMap extends HTMLElement {
               });
           });
 
+          // Preload popup images
+          const preloadImages = (images) => {
+            images.forEach((imageUrl) => {
+              const img = new Image();
+              img.src = imageUrl;
+            });
+          };
+
+          const uniqueImages = [
+            ...new Set(data.features.map((f) => f.properties.image)),
+          ];
+          preloadImages(uniqueImages);
+
           // Add popup on click
           map.on("click", "unclustered-point", (e) => {
             const coordinates = e.features[0].geometry.coordinates.slice();
             const properties = e.features[0].properties;
 
             const popupContent = `
-          <img src="${properties.image}" />
-          <div class="popup-content-description">
-            <span class="badge ${classnames[properties.type]}">${properties.type}</span>
-            <h3>${properties.name}</h3>
-            <div class="popup-content-footer">
-              <div class="popup-content-footer-item">
-                <img src="${chargerIcon}" /><span>${properties.size}</span>
-              </div>
-              <div class="popup-content-footer-item">
-                <img src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
+            <img src="${properties.image}" />
+            <div class="popup-content-description">
+              <span class="badge ${classnames[properties.type]}">${properties.type}</span>
+              <h3>${properties.name}</h3>
+              <div class="popup-content-footer">
+                <div class="popup-content-footer-item">
+                  <img src="${chargerIcon}" /><span>${properties.size}</span>
+                </div>
+                <div class="popup-content-footer-item">
+                  <img src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
+                </div>
               </div>
             </div>
-          </div>
-        `;
+          `;
 
             new mapboxgl.Popup({ offset: 20 })
               .setLngLat(coordinates)

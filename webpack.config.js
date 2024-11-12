@@ -38,7 +38,23 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        oneOf: [
+          {
+            // Convert only map.css to string
+            include: path.resolve(__dirname, 'src/styles/map.css'),
+            use: [
+              {
+                loader: 'raw-loader',
+                options: {
+                  esModule: false
+                }
+              }
+            ]
+          },
+          {
+            use: ['style-loader', 'css-loader']
+          }
+        ]
       },
       {
         test: /\.svg$/,

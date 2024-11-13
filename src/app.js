@@ -124,7 +124,7 @@ export class OSMap extends HTMLElement {
     // Preload popup images in background
     const uniquePopupImages = [
       ...new Set(data.features.map((f) => f.properties.image)),
-    ];
+    ].filter(Boolean);
     const preloadImages = (images) => {
       images.forEach((imageUrl) => {
         const img = new Image();
@@ -136,14 +136,16 @@ export class OSMap extends HTMLElement {
     // Load map icons
     const uniqueIcons = [
       ...new Set(data.features.map((f) => f.properties.iconUrl)),
-    ];
+    ].filter(Boolean);
     const loadIconPromises = uniqueIcons.map(
       (iconUrl) =>
         new Promise((resolve, reject) => {
           if (!map.hasImage(iconUrl)) {
             map.loadImage(iconUrl, (error, image) => {
               if (error) reject(error);
-              map.addImage(iconUrl, image);
+              if (image) {
+                map.addImage(iconUrl, image);
+              }
               resolve();
             });
           } else {

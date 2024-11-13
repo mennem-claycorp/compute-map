@@ -64,7 +64,7 @@ os-map {
   position: absolute;
   top: 110%;
   left: 0;
-  width: 254px;
+  width: 276px;
   font-size: 18px;
   max-height: 260px;
   overflow-y: auto;
@@ -142,23 +142,23 @@ os-map {
   flex-shrink: 0;
 }
 
-.os-map-enterprise {
+.os-map-badge.enterprise {
   background-color: #212121;
 }
 
-.os-map-quantum {
+.os-map-badge.quantum {
   background-color: #1476e8;
 }
 
-.os-map-ai {
+.os-map-badge.ai {
   background-color: #28a745;
 }
 
-.os-map-colocation {
+.os-map-badge.colocation {
   background-color: #4e2751;
 }
 
-.os-map-hyperscale {
+.os-map-badge.hyperscale {
   color: #212121;
   background-color: #ffc107;
 }

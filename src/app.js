@@ -13,14 +13,6 @@ import checkIcon from "../static/check_small.svg";
 
 const filterDropdowns = [typeDropdown, sizeDropdown, stateDropdown];
 
-const classnames = {
-  Hyperscale: "os-map-hyperscale",
-  "Quantum Campus": "os-map-quantum",
-  AI: "os-map-ai",
-  Colocation: "os-map-colocation",
-  Enterprise: "os-map-enterprise",
-};
-
 export class OSMap extends HTMLElement {
   static defaultStylesAdded = false;
   map = null;
@@ -563,7 +555,7 @@ export class OSMap extends HTMLElement {
     return `
       <img class="os-map-popup-content-image" src="${properties.image}" />
       <div class="os-map-popup-content-description">
-        <span class="os-map-badge ${classnames[properties.type]}">${properties.type}</span>
+        <span class="os-map-badge ${properties.type.toLowerCase()}">${properties.type}</span>
         <h3>${properties.name}</h3>
         <div class="os-map-popup-content-footer">
           <div class="os-map-popup-content-footer-item">

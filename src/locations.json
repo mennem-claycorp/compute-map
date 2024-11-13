@@ -1,727 +1,1985 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-84.388, 33.749]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Colocation",
-        "type": "Colocation",
-        "city": "Atlanta",
-        "state": "GA",
-        "region": "Southeast",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-112.3496, 33.4356]
-      },
-      "properties": {
-        "name": "Campus 1 Bull AI",
-        "type": "AI",
-        "city": "Avondale",
-        "state": "AZ",
-        "region": "Southwest",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-90.3315, 38.749]
-      },
-      "properties": {
-        "name": "Express Script Enterprise",
-        "type": "Enterprise",
-        "city": "Berkeley",
-        "state": "MO",
-        "region": "Midwest",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-119.7008, 45.8393]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Boardman",
-        "state": "OR",
-        "region": "Northwest",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-78.3897, 36.6671]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Boydton",
-        "state": "VA",
-        "region": "Southeast",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-85.7141, 34.947]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Bridgeport",
-        "state": "AL",
-        "region": "Southeast",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-88.2434, 40.1164]
-      },
-      "properties": {
-        "name": "NCSA Petasca Quantum Com",
-        "type": "Quantum Computing",
-        "city": "Champaign",
-        "state": "IL",
-        "region": "Midwest",
-        "size": "1+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
-        "colorCode": "#1476E8"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-104.8202, 41.14]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Cheyenne",
-        "state": "WY",
-        "region": "Mountain West",
-        "size": "60+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-87.6298, 41.8781]
-      },
-      "properties": {
-        "name": "University of C Enterprise",
-        "type": "Enterprise",
-        "city": "Chicago",
-        "state": "IL",
-        "region": "Midwest",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-95.8608, 41.2619]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Colocation",
-        "type": "Colocation",
-        "city": "Council Bluffs",
-        "state": "IA",
-        "region": "Midwest",
-        "size": "20+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-93.625, 41.5868]
-      },
-      "properties": {
-        "name": "Campus 2 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Des Moines",
-        "state": "IA",
-        "region": "Midwest",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-120.2934, 47.4151]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "East Wenatchee",
-        "state": "WA",
-        "region": "Northwest",
-        "size": "70+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-112.0740, 33.4484]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Phoenix",
-        "state": "AZ",
-        "region": "Southwest",
-        "size": "90+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-105.2705, 40.0150]
-      },
-      "properties": {
-        "name": "Quantum Research Center",
-        "type": "Quantum Computing",
-        "city": "Boulder",
-        "state": "CO",
-        "region": "Mountain West",
-        "size": "1+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
-        "colorCode": "#1476E8"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-97.7431, 30.2672]
-      },
-      "properties": {
-        "name": "Campus 2 Bull AI",
-        "type": "AI",
-        "city": "Austin",
-        "state": "TX",
-        "region": "Southwest",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-78.6382, 35.7796]
-      },
-      "properties": {
-        "name": "Enterprise Data Center",
-        "type": "Enterprise",
-        "city": "Raleigh",
-        "state": "NC",
-        "region": "Southeast",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-111.8910, 40.7608]
-      },
-      "properties": {
-        "name": "Campus 1 Bull Colocation",
-        "type": "Colocation",
-        "city": "Salt Lake City",
-        "state": "UT",
-        "region": "Mountain West",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.3321, 47.6062]
-      },
-      "properties": {
-        "name": "Cluster Zeta-1",
-        "type": "Hyperscale",
-        "city": "Seattle",
-        "state": "WA",
-        "region": "Northwest",
-        "size": "90+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-71.0589, 42.3601]
-      },
-      "properties": {
-        "name": "MIT Quantum Lab",
-        "type": "Quantum Computing",
-        "city": "Cambridge",
-        "state": "MA",
-        "region": "Northeast",
-        "size": "1+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
-        "colorCode": "#1476E8"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.6784, 45.5155]
-      },
-      "properties": {
-        "name": "Campus 3 Bull AI",
-        "type": "AI",
-        "city": "Portland",
-        "state": "OR",
-        "region": "Northwest",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-115.1398, 36.1699]
-      },
-      "properties": {
-        "name": "Desert Edge Colocation",
-        "type": "Colocation",
-        "city": "Las Vegas",
-        "state": "NV",
-        "region": "Southwest",
-        "size": "20+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-80.1918, 25.7617]
-      },
-      "properties": {
-        "name": "Campus 2 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Miami",
-        "state": "FL",
-        "region": "Southeast",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-83.0458, 42.3314]
-      },
-      "properties": {
-        "name": "Motor City Enterprise",
-        "type": "Enterprise",
-        "city": "Detroit",
-        "state": "MI",
-        "region": "Midwest",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-106.6504, 35.0844]
-      },
-      "properties": {
-        "name": "Sandia Quantum Center",
-        "type": "Quantum Computing",
-        "city": "Albuquerque",
-        "state": "NM",
-        "region": "Southwest",
-        "size": "1+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
-        "colorCode": "#1476E8"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-86.7816, 36.1627]
-      },
-      "properties": {
-        "name": "Campus 3 Bull Hyperscale",
-        "type": "Hyperscale",
-        "city": "Nashville",
-        "state": "TN",
-        "region": "Southeast",
-        "size": "70+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-74.0060, 40.7128]
-      },
-      "properties": {
-        "name": "Manhattan Edge Hub",
-        "type": "Colocation",
-        "city": "New York",
-        "state": "NY",
-        "region": "Northeast",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-121.8863, 37.3382]
-      },
-      "properties": {
-        "name": "Silicon Valley AI Lab",
-        "type": "AI",
-        "city": "San Jose",
-        "state": "CA",
-        "region": "West",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.0369, 38.9072]
-      },
-      "properties": {
-        "name": "Capital Enterprise Center",
-        "type": "Enterprise",
-        "city": "Washington",
-        "state": "DC",
-        "region": "Northeast",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.1419, 38.8821]
-      },
-      "properties": {
-        "name": "Arlington Tech Hub",
-        "type": "AI",
-        "city": "Arlington",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.2011, 39.1434]
-      },
-      "properties": {
-        "name": "Maryland Quantum Center",
-        "type": "Quantum Computing",
-        "city": "Rockville",
-        "state": "MD",
-        "region": "Northeast",
-        "size": "1+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
-        "colorCode": "#1476E8"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.0469, 38.8048]
-      },
-      "properties": {
-        "name": "Alexandria Edge Center",
-        "type": "Colocation",
-        "city": "Alexandria",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "20+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-76.8622, 39.0181]
-      },
-      "properties": {
-        "name": "Beltway Enterprise Hub",
-        "type": "Enterprise",
-        "city": "Bowie",
-        "state": "MD",
-        "region": "Northeast",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.3564, 38.9587]
-      },
-      "properties": {
-        "name": "Fairfax Hyperscale",
-        "type": "Hyperscale",
-        "city": "Fairfax",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "80+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.4052, 39.0438]
-      },
-      "properties": {
-        "name": "Loudoun Data Hub",
-        "type": "Hyperscale",
-        "city": "Leesburg",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "90+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-76.9925, 38.9784]
-      },
-      "properties": {
-        "name": "Silver Spring AI Center",
-        "type": "AI",
-        "city": "Silver Spring",
-        "state": "MD",
-        "region": "Northeast",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
-        "colorCode": "#28A745"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.2311, 38.9152]
-      },
-      "properties": {
-        "name": "Tysons Edge Facility",
-        "type": "Colocation",
-        "city": "Tysons",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "30+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
-        "colorCode": "#4E2751"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.1528, 39.0817]
-      },
-      "properties": {
-        "name": "Bethesda Enterprise Center",
-        "type": "Enterprise",
-        "city": "Bethesda",
-        "state": "MD",
-        "region": "Northeast",
-        "size": "40+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
-        "colorCode": "#212121"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-77.4875, 39.0437]
-      },
-      "properties": {
-        "name": "Ashburn Tech Cluster",
-        "type": "Hyperscale",
-        "city": "Ashburn",
-        "state": "VA",
-        "region": "Northeast",
-        "size": "90+ MW",
-        "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-        "integratedServices": "",
-        "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
-        "colorCode": "#FFC107"
-      }
-    }
-  ]
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "40+ MW",
+                "city": "Atlanta ",
+                "state": "GA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.388,
+                    33.749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "AI",
+                "size": "80+ MW",
+                "city": "Avondale ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3496,
+                    33.4356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "80+ MW",
+                "city": "Avondale ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3496,
+                    33.4356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "AI",
+                "size": "80+ MW",
+                "city": "Avondale ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3496,
+                    33.4356
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Express Scripts Office and Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Berkeley ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514527/clayco/Express%20Scripts.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.3315,
+                    38.749
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Boardman ",
+                "state": "OR ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.7008,
+                    45.8393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Boardman ",
+                "state": "OR ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.7008,
+                    45.8393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Boardman ",
+                "state": "OR ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.7008,
+                    45.8393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Boardman ",
+                "state": "OR ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.7008,
+                    45.8393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Boydton ",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.3897,
+                    36.6671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "80+ MW",
+                "city": "Bridgeport",
+                "state": "AL",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.7141,
+                    34.947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "80+ MW",
+                "city": "Bridgeport",
+                "state": "AL",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.7141,
+                    34.947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "80+ MW",
+                "city": "Bridgeport",
+                "state": "AL",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.7141,
+                    34.947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "Hyperscale",
+                "size": "80+ MW",
+                "city": "Bridgeport",
+                "state": "AL",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.7141,
+                    34.947
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NCSA Petascale Computing at UIUC",
+                "type": "Quantum Computing",
+                "size": "20+ MW",
+                "city": "Champaign",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
+                "colorCode": "#1476E8",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.2434,
+                    40.1164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 5",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 6",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Cheyenne ",
+                "state": "WY ",
+                "region": "Mountain West",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.8202,
+                    41.14
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "PsiQuantum Campus",
+                "type": "Quantum Computing",
+                "size": "N/A",
+                "city": "Chicago ",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
+                "colorCode": "#1476E8",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6298,
+                    41.8781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "University of Chicago Pod B Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Chicago ",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/v1731514524/clayco/Univ%20of%20Chicago%20POD%20B%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6298,
+                    41.8781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "1+ MW",
+                "city": "Council Bluffs",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.8608,
+                    41.2619
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 8",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "30+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "30+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "30+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "Hyperscale",
+                "size": "30+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 5",
+                "type": "Hyperscale",
+                "size": "30+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 6",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 7",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 9",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 1",
+                "type": "Hyperscale",
+                "size": "40+ MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 2",
+                "type": "Hyperscale",
+                "size": "40 + MW",
+                "city": "Des Moines",
+                "state": "IA",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.625,
+                    41.5868
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "1+ MW",
+                "city": "East Wenatchee ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.2934,
+                    47.4151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "1+ MW",
+                "city": "East Wenatchee ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.2934,
+                    47.4151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "1+ MW",
+                "city": "East Wenatchee ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.2934,
+                    47.4151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "10+ MW",
+                "city": "Elk Grove Village ",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9703,
+                    42.0039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "20+ MW",
+                "city": "Elk Grove Village ",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.9703,
+                    42.0039
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "AI",
+                "size": "40+ MW",
+                "city": "Fayetteville ",
+                "state": "GA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4549,
+                    33.4487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "40+ MW",
+                "city": "Fayetteville ",
+                "state": "GA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4549,
+                    33.4487
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "30+ MW",
+                "city": "Goodyear ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.3582,
+                    33.4353
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 1",
+                "type": "Hyperscale",
+                "size": "60+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 7",
+                "type": "Hyperscale",
+                "size": "70+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 6",
+                "type": "Hyperscale",
+                "size": "70+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 2 Building 5",
+                "type": "Hyperscale",
+                "size": "70+ MW",
+                "city": "Hilliard ",
+                "state": "OH ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.1582,
+                    40.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Colocation",
+                "size": "90+ MW",
+                "city": "Lithia Springs ",
+                "state": "GA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.6602,
+                    33.794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "90+ MW",
+                "city": "Lithia Springs ",
+                "state": "GA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.6602,
+                    33.794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Magellan Behavior Health Office ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Maryland Heights ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Magellan%20Behavioral%20Health%20Office.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.4298,
+                    38.7134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Magellan Health Services Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Maryland Heights ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.4298,
+                    38.7134
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "30+ MW",
+                "city": "Mesa",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8315,
+                    33.4152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "AI",
+                "size": "30+ MW",
+                "city": "Mesa",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8315,
+                    33.4152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "AI",
+                "size": "30+ MW",
+                "city": "Mesa",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8315,
+                    33.4152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "30+ MW",
+                "city": "Mesa ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.8315,
+                    33.4152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "AI",
+                "size": "70+ MW",
+                "city": "New Carlisle ",
+                "state": "IN ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5,
+                    41.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "70+ MW",
+                "city": "New Carlisle ",
+                "state": "IN ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5,
+                    41.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "AI",
+                "size": "70+ MW",
+                "city": "New Carlisle ",
+                "state": "IN ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5,
+                    41.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "AI",
+                "size": "70+ MW",
+                "city": "New Carlisle ",
+                "state": "IN ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5,
+                    41.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 5",
+                "type": "AI",
+                "size": "70+ MW",
+                "city": "New Carlisle ",
+                "state": "IN ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5,
+                    41.7
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Roper St. Francis Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "North Charleston ",
+                "state": "SC ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514526/clayco/Roper%20St.%20Francis%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.9748,
+                    32.8546
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "BJC HealthCare Primary Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "O'Fallon ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/BJC%20Progress%20West.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.6998,
+                    38.8106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "CitiMortgage Regional Headquarters ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "O'Fallon ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514527/clayco/CitiMortgage.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.6998,
+                    38.8106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "OG&E Metro Hardening ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Oklahoma City ",
+                "state": "OK ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514525/clayco/OGandE%20Metro%20Hardening.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.5164,
+                    35.4676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "OG&E Operating Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Oklahoma City ",
+                "state": "OK ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,w_720/v1731514525/clayco/OGandE%20Operating%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.5164,
+                    35.4676
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "10+ MW",
+                "city": "Olathe",
+                "state": "KS",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.8191,
+                    38.8814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "30+ MW",
+                "city": "Phoenix ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.074,
+                    33.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "40+ MW",
+                "city": "Phoenix ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.074,
+                    33.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "AI",
+                "size": "40+ MW",
+                "city": "Phoenix ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.074,
+                    33.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "AI",
+                "size": "40+ MW",
+                "city": "Phoenix ",
+                "state": "AZ ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.074,
+                    33.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Colocation",
+                "size": "40+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "colorCode": "#4E2751",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "1+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "1+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "Hyperscale",
+                "size": "20+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "Hyperscale",
+                "size": "10+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "Hyperscale",
+                "size": "20+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "Hyperscale",
+                "size": "20+ MW",
+                "city": "Quincy ",
+                "state": "WA ",
+                "region": "Northwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "colorCode": "#FFC107",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.8528,
+                    47.2343
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SAVVIS SC-7 Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Santa Clara ",
+                "state": "CA ",
+                "region": "Southwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514526/clayco/Savvis%20SC-7%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.9552,
+                    37.3541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "U.S. Cellular Corporation Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "Schaumburg ",
+                "state": "IL ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/f_jpg,q_auto,h_720/v1731514766/clayco/US%20Cellular3.pdf",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.0834,
+                    42.0334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Centene IT Renaissance Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "St. Charles ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Centene%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.4974,
+                    38.7881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "AT&T Data Center ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "St. Louis ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Centene%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.1994,
+                    38.627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Washington University Data Center Expansion ",
+                "type": "Enterprise",
+                "size": "1+ MW",
+                "city": "St. Louis ",
+                "state": "MO ",
+                "region": "Midwest",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514525/clayco/Wash%20U%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "colorCode": "#212121",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.1994,
+                    38.627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 1",
+                "type": "AI",
+                "size": "50+ MW",
+                "city": "Stafford",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4083,
+                    38.4221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 2",
+                "type": "AI",
+                "size": "50+ MW",
+                "city": "Stafford",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4083,
+                    38.4221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 3",
+                "type": "AI",
+                "size": "50+ MW",
+                "city": "Stafford",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4083,
+                    38.4221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 4",
+                "type": "AI",
+                "size": "50+ MW",
+                "city": "Stafford",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4083,
+                    38.4221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Campus 1 Building 5",
+                "type": "AI",
+                "size": "50+ MW",
+                "city": "Stafford",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
+                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "colorCode": "#28A745",
+                "integratedServices": ""
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.4083,
+                    38.4221
+                ]
+            }
+        }
+    ]
 }

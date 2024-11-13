@@ -19,7 +19,7 @@ Add the `<os-map>` component to your interface using the following attributes:
 
 # Update map data:
 
-You can dynamically update the map's data by passing in a JSON object. Here's an example:
+You can dynamically update the map's data by passing in a GeoJSON object. Here's an example:
 
 ```html
 <textarea></textarea>
@@ -40,6 +40,34 @@ You can dynamically update the map's data by passing in a JSON object. Here's an
       map.setData(JSON.parse(value));
     });
 </script>
+```
+
+GeoJSON object should have next structure:
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.388, 33.749]
+      },
+      "properties": {
+        "name": "Campus 1",
+        "type": "Colocation",
+        "city": "Atlanta",
+        "state": "GA",
+        "region": "Southeast",
+        "size": "30+ MW",
+        "image": "http://image.jpg",
+        "integratedServices": "",
+        "iconUrl": "http://icon.png",
+        "colorCode": "#4E2751"
+      }
+    }
+  ]
+}
 ```
 
 # Styling

@@ -8,27 +8,43 @@ Add the `<os-map>` component to your interface using the following attributes:
 
 | Attribute           | Description                                  | Example                              |
 | ------------------- | -------------------------------------------- | ------------------------------------ |
-| `id`                | Specifies the unique map container id        | `map`                                |
-| `data-os-endpoint`  | Specifies the endpoint where data is fetched | `https://api.example.com/data`       |
-| `data-os-key`       | Your public Mapbox API key                   | `pk.eyJ1...`                         |
+| `data-os-map-id`                | Specifies the unique map container id        | `map`                                |
+| `data-os-map-endpoint`  | Specifies the endpoint where data is fetched | `https://api.example.com/data`       |
+| `data-os-map-key`       | Your public Mapbox API key                   | `pk.eyJ1...`                         |
 | `data-os-map-lat`   | Initial latitude position of the map         | `39.8283`                            |
 | `data-os-map-lng`   | Initial longitude position of the map        | `-98.5795`                           |
 | `data-os-map-zoom`  | Initial zoom level of the map                | `4`                                  |
 | `data-os-map-style` | Mapbox style to be used for the map          | `mapbox://styles/mapbox/streets-v11` |
 | `data-os-map-lock`  | Prevents map zooming when scrolling          | `true`                               |
 
-# Development
+# Update map data:
 
-Available commands:
+You can dynamically update the map's data by passing in a JSON object. Here's an example:
 
-- `npm run build` - Builds the project using webpack
-- `npm run watch` - Watches for changes and rebuilds automatically
+```html
+<textarea></textarea>
+<button>Set data</button>
+<os-map
+  data-os-map-lat="39.8283"
+  data-os-map-lng="-98.5795"
+  data-os-map-zoom="4"
+  data-os-map-style="mapbox://styles/mapbox/light-v11"
+  data-os-map-key="pk.eyJ1..."
+></os-map>
+
+<script>
+    document.querySelector('button').addEventListener('click', function() {
+      const map = document.querySelector('os-map');
+      const value = document.querySelector('textarea').value;
+
+      map.setData(JSON.parse(value));
+    });
+</script>
+```
 
 # Styling
 
-The map dimensions can be controlled by setting the height and width of the `.os-map-container` class.
-
-## Example:
+The map dimensions can be controlled by setting the height and width of the `.os-map-container` class. Here's an example:
 
 ```css
 .os-map-container {
@@ -85,3 +101,10 @@ The `<os-map>` component provides the following CSS classes for custom styling. 
 - `.os-map-container .mapboxgl-ctrl-group` - Controls container
 - `.os-map-container .mapboxgl-ctrl-zoom-in` - Zoom in button
 - `.os-map-container .mapboxgl-ctrl-zoom-out` - Zoom out button
+
+# Development
+
+Available commands:
+
+- `npm run build` - Builds the project using webpack
+- `npm run watch` - Watches for changes and rebuilds automatically

@@ -36,11 +36,34 @@ export class OSMap extends HTMLElement {
     const id = this.getAttribute("data-os-map-id") || "map";
     const endpoint = this.getAttribute("data-os-map-endpoint");
     const key = this.getAttribute("data-os-map-key");
-    const mapLatitude = this.getAttribute("data-os-map-lat");
-    const mapLongitude = this.getAttribute("data-os-map-lng");
-    const mapZoom = this.getAttribute("data-os-map-zoom");
     const mapStyle = this.getAttribute("data-os-map-style");
     const mapLock = this.getAttribute("data-os-map-lock") === "true";
+    const mapLatitude = parseFloat(this.getAttribute("data-os-map-lat"));
+    const mapLongitude = parseFloat(this.getAttribute("data-os-map-lng"));
+    const mapZoom = parseFloat(this.getAttribute("data-os-map-zoom"));
+    const mapBoundWest = parseFloat(
+      this.getAttribute("data-os-map-bound-west"),
+    );
+    const mapBoundSouth = parseFloat(
+      this.getAttribute("data-os-map-bound-south"),
+    );
+    const mapBoundEast = parseFloat(
+      this.getAttribute("data-os-map-bound-east"),
+    );
+    const mapBoundNorth = parseFloat(
+      this.getAttribute("data-os-map-bound-north"),
+    );
+
+    const mapCenter = (mapLongitude && mapLatitude) ? [mapLongitude, mapLatitude] : null;
+    const maxBounds = (mapBoundWest &&
+      mapBoundSouth &&
+      mapBoundEast &&
+      mapBoundNorth) ? [
+        [mapBoundWest, mapBoundSouth],
+        [mapBoundEast, mapBoundNorth],
+      ] : null;
+
+    window.console.log("mapCenter", mapCenter);
 
     // Build filter dropdowns
     const filtersContainer = document.createElement("div");
@@ -78,11 +101,20 @@ export class OSMap extends HTMLElement {
     mapboxgl.accessToken = key;
     this.map = new mapboxgl.Map({
       container: id,
-      center: [parseFloat(mapLongitude), parseFloat(mapLatitude)],
-      zoom: parseFloat(mapZoom),
+      zoom: mapZoom || null,
       style: mapStyle,
       scrollZoom: !mapLock,
+      maxBounds: maxBounds,
     });
+
+    if (mapCenter) {
+      this.map.setCenter(mapCenter);
+    }
+
+    if (maxBounds) {
+      // maxBounds doesn't apply to the zoom buttons so we need to set current zoom as a min zoom
+      this.map.setMinZoom(this.map.getZoom());
+    }
 
     this.map.on("load", () => {
       if (endpoint) {

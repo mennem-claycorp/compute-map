@@ -63,8 +63,6 @@ export class OSMap extends HTMLElement {
         [mapBoundEast, mapBoundNorth],
       ] : null;
 
-    window.console.log("mapCenter", mapCenter);
-
     // Build filter dropdowns
     const filtersContainer = document.createElement("div");
     const dropdownsContainer = document.createElement("div");

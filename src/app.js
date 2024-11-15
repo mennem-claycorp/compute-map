@@ -10,6 +10,7 @@ import chargerIcon from "../static/charger.svg";
 import locationIcon from "../static/location_on.svg";
 import arrowDownIcon from "../static/arrow_drop_down.svg";
 import checkIcon from "../static/check_small.svg";
+import { availableMapProjections } from "./utils";
 
 const filterDropdowns = [typeDropdown, sizeDropdown, stateDropdown];
 
@@ -41,6 +42,7 @@ export class OSMap extends HTMLElement {
     const mapZoom = this.getAttribute("data-os-map-zoom");
     const mapStyle = this.getAttribute("data-os-map-style");
     const mapLock = this.getAttribute("data-os-map-lock") === "true";
+    const mapProjection = this.getAttribute("data-os-map-projection");
 
     // Build filter dropdowns
     const filtersContainer = document.createElement("div");
@@ -82,6 +84,11 @@ export class OSMap extends HTMLElement {
       zoom: parseFloat(mapZoom),
       style: mapStyle,
       scrollZoom: !mapLock,
+      projection: {
+        name: availableMapProjections.includes(mapProjection)
+          ? mapProjection
+          : "mercator",
+      },
     });
 
     this.map.on("load", () => {

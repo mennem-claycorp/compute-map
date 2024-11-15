@@ -112,7 +112,11 @@ os-map {
 }
 
 .os-map-check-icon {
+  width: 24px;
+  height: 24px;
   background-color: #e2231a;
+  flex-shrink: 0;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImNoZWNrX3NtYWxsIj4KPG1hc2sgaWQ9Im1hc2swXzE5XzQ1IiBzdHlsZT0ibWFzay10eXBlOmFscGhhIiBtYXNrVW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiPgo8cmVjdCBpZD0iQm91bmRpbmcgYm94IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzE5XzQ1KSI+CjxwYXRoIGlkPSJjaGVja19zbWFsbF8yIiBkPSJNMTAgMTYuNEw2IDEyLjRMNy40IDExTDEwIDEzLjZMMTYuNiA3TDE4IDguNEwxMCAxNi40WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8L2c+Cjwvc3ZnPgo=")
 }
 
 .os-map-dropdown-item .os-map-check-icon {
@@ -164,7 +168,10 @@ os-map {
 }
 
 .os-map-arrow {
+  width: 24px;
+  height: 24px;
   margin-left: 16px;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImFycm93X2Ryb3BfZG93biI+CjxtYXNrIGlkPSJtYXNrMF82Ml84MSIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij4KPHJlY3QgaWQ9IkJvdW5kaW5nIGJveCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiBmaWxsPSIjRDlEOUQ5Ii8+CjwvbWFzaz4KPGcgbWFzaz0idXJsKCNtYXNrMF82Ml84MSkiPgo8cGF0aCBpZD0iYXJyb3dfZHJvcF9kb3duXzIiIGQ9Ik0xMiAxNUw3IDEwSDE3TDEyIDE1WiIgZmlsbD0iIzIxMjEyMSIvPgo8L2c+CjwvZz4KPC9zdmc+Cg==")
 }
 
 .os-map-popup-content-description {

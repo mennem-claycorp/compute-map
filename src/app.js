@@ -54,14 +54,15 @@ export class OSMap extends HTMLElement {
       this.getAttribute("data-os-map-bound-north"),
     );
 
-    const mapCenter = (mapLongitude && mapLatitude) ? [mapLongitude, mapLatitude] : null;
-    const maxBounds = (mapBoundWest &&
-      mapBoundSouth &&
-      mapBoundEast &&
-      mapBoundNorth) ? [
-        [mapBoundWest, mapBoundSouth],
-        [mapBoundEast, mapBoundNorth],
-      ] : null;
+    const mapCenter =
+      mapLongitude && mapLatitude ? [mapLongitude, mapLatitude] : null;
+    const maxBounds =
+      mapBoundWest && mapBoundSouth && mapBoundEast && mapBoundNorth
+        ? [
+            [mapBoundWest, mapBoundSouth],
+            [mapBoundEast, mapBoundNorth],
+          ]
+        : null;
 
     // Build filter dropdowns
     const filtersContainer = document.createElement("div");
@@ -107,11 +108,6 @@ export class OSMap extends HTMLElement {
 
     if (mapCenter) {
       this.map.setCenter(mapCenter);
-    }
-
-    if (maxBounds) {
-      // maxBounds doesn't apply to the zoom buttons so we need to set current zoom as a min zoom
-      this.map.setMinZoom(this.map.getZoom());
     }
 
     this.map.on("load", () => {

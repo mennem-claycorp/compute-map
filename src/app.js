@@ -18,6 +18,7 @@ export class OSMap extends HTMLElement {
   static defaultStylesAdded = false;
   map = null;
   originalData = null;
+  mapRefocus = false;
   selectedTypes = [];
   selectedSizes = [];
   selectedStates = [];
@@ -55,6 +56,10 @@ export class OSMap extends HTMLElement {
     const mapBoundNorth = parseFloat(
       this.getAttribute("data-os-map-bound-north"),
     );
+    const hasMapRefocusAttr = this.hasAttribute("data-os-map-refocus");
+    const mapRefocusAttrValue =
+      hasMapRefocusAttr && this.getAttribute("data-os-map-refocus");
+    this.mapRefocus = hasMapRefocusAttr && mapRefocusAttrValue !== "false";
 
     const mapCenter =
       mapLongitude && mapLatitude ? [mapLongitude, mapLatitude] : null;
@@ -385,10 +390,12 @@ export class OSMap extends HTMLElement {
       const clusterId = features[0].properties.cluster_id;
       const clusterCenter = features[0].geometry.coordinates;
 
-      map.easeTo({
-        center: clusterCenter,
-        duration: 500,
-      });
+      if (this.mapRefocus) {
+        map.easeTo({
+          center: clusterCenter,
+          duration: 500,
+        });
+      }
 
       map.setPaintProperty("clusters", "circle-opacity", [
         "case",

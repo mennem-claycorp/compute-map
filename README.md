@@ -21,6 +21,7 @@ Add the `<os-map>` component to your interface using the following attributes:
 | `data-os-map-bound-south` | Defines the southern latitude limit of the map bounds | `37.492987`                          |
 | `data-os-map-bound-east`  | Defines the eastern longitude limit of the map bounds | `-122.250481`                        |
 | `data-os-map-bound-north` | Defines the northern latitude limit of the map bounds | `37.871651`                          |
+| `data-os-map-refocus`  | Re-centers the map to focus on the selected cluster  | `false`                               |
 
 # Update map data:
 

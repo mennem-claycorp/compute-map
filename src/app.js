@@ -39,7 +39,8 @@ export class OSMap extends HTMLElement {
     const endpoint = this.getAttribute("data-os-map-endpoint");
     const key = this.getAttribute("data-os-map-key");
     const mapStyle = this.getAttribute("data-os-map-style");
-    const mapLock = this.getAttribute("data-os-map-lock") === "true";
+    const hasMapLockAttribute = this.hasAttribute("data-os-map-lock");
+    const mapLock = hasMapLockAttribute && this.getAttribute("data-os-map-lock");
     const mapProjection = this.getAttribute("data-os-map-projection");
     const mapLatitude = parseFloat(this.getAttribute("data-os-map-lat"));
     const mapLongitude = parseFloat(this.getAttribute("data-os-map-lng"));
@@ -109,6 +110,7 @@ export class OSMap extends HTMLElement {
       container: id,
       zoom: mapZoom || null,
       style: mapStyle,
+      cooperativeGestures: hasMapLockAttribute && mapLock !== "false",
       scrollZoom: !mapLock,
       projection: {
         name: availableMapProjections.includes(mapProjection)

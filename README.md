@@ -16,6 +16,7 @@ Add the `<os-map>` component to your interface using the following attributes:
 | `data-os-map-zoom`        | Initial zoom level of the map                         | `4`                                  |
 | `data-os-map-style`       | Mapbox style to be used for the map                   | `mapbox://styles/mapbox/streets-v11` |
 | `data-os-map-lock`        | Prevents map zooming when scrolling                   | `true`                               |
+| `data-os-map-projection`  | Specifies which projection the map is rendered in. Available values: "albers", "equalEarth", "equirectangular", "lambertConformalConic", "mercator", "naturalEarth", "winkelTripel", "globe". Defaults to "mercator" | `mercator`                               |
 | `data-os-map-bound-west`  | Defines the western longitude limit of the map bounds | `-122.66336`                         |
 | `data-os-map-bound-south` | Defines the southern latitude limit of the map bounds | `37.492987`                          |
 | `data-os-map-bound-east`  | Defines the eastern longitude limit of the map bounds | `-122.250481`                        |

@@ -6,16 +6,22 @@ Add the `<os-map>` component to your interface using the following attributes:
 
 # Attributes
 
-| Attribute           | Description                                  | Example                              |
-| ------------------- | -------------------------------------------- | ------------------------------------ |
-| `data-os-map-id`                | Specifies the unique map container id        | `map`                                |
-| `data-os-map-endpoint`  | Specifies the endpoint where data is fetched | `https://api.example.com/data`       |
-| `data-os-map-key`       | Your public Mapbox API key                   | `pk.eyJ1...`                         |
-| `data-os-map-lat`   | Initial latitude position of the map         | `39.8283`                            |
-| `data-os-map-lng`   | Initial longitude position of the map        | `-98.5795`                           |
-| `data-os-map-zoom`  | Initial zoom level of the map                | `4`                                  |
-| `data-os-map-style` | Mapbox style to be used for the map          | `mapbox://styles/mapbox/streets-v11` |
-| `data-os-map-lock`  | Prevents map zooming when scrolling          | `true`                               |
+| Attribute                 | Description                                           | Example                              |
+| ------------------------- | ----------------------------------------------------- | ------------------------------------ |
+| `data-os-map-id`          | Specifies the unique map container id                 | `map`                                |
+| `data-os-map-endpoint`    | Specifies the endpoint where data is fetched          | `https://api.example.com/data`       |
+| `data-os-map-key`         | Your public Mapbox API key                            | `pk.eyJ1...`                         |
+| `data-os-map-lat`         | Initial latitude position of the map                  | `39.8283`                            |
+| `data-os-map-lng`         | Initial longitude position of the map                 | `-98.5795`                           |
+| `data-os-map-zoom`        | Initial zoom level of the map                         | `4`                                  |
+| `data-os-map-style`       | Mapbox style to be used for the map                   | `mapbox://styles/mapbox/streets-v11` |
+| `data-os-map-lock`        | Prevents map zooming when scrolling                   | `true`                               |
+| `data-os-map-projection`  | Specifies which projection the map is rendered in. Available values: "albers", "equalEarth", "equirectangular", "lambertConformalConic", "mercator", "naturalEarth", "winkelTripel", "globe". Defaults to "mercator" | `mercator`                               |
+| `data-os-map-bound-west`  | Defines the western longitude limit of the map bounds | `-122.66336`                         |
+| `data-os-map-bound-south` | Defines the southern latitude limit of the map bounds | `37.492987`                          |
+| `data-os-map-bound-east`  | Defines the eastern longitude limit of the map bounds | `-122.250481`                        |
+| `data-os-map-bound-north` | Defines the northern latitude limit of the map bounds | `37.871651`                          |
+| `data-os-map-refocus`  | Re-centers the map to focus on the selected cluster  | `false`                               |
 
 # Update map data:
 
@@ -33,16 +39,17 @@ You can dynamically update the map's data by passing in a GeoJSON object. Here's
 ></os-map>
 
 <script>
-    document.querySelector('button').addEventListener('click', function() {
-      const map = document.querySelector('os-map');
-      const value = document.querySelector('textarea').value;
+  document.querySelector("button").addEventListener("click", function () {
+    const map = document.querySelector("os-map");
+    const value = document.querySelector("textarea").value;
 
-      map.setData(JSON.parse(value));
-    });
+    map.setData(JSON.parse(value));
+  });
 </script>
 ```
 
 GeoJSON object should have next structure:
+
 ```
 {
   "type": "FeatureCollection",

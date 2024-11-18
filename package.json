@@ -1,6 +1,6 @@
 {
   "name": "compute-map",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --config webpack.config.js --watch"
@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "geojson-validation": "^1.0.2",
-    "mapbox-gl": "^3.7.0"
+    "mapbox-gl": "2.15.0"
   }
 }

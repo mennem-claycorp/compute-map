@@ -17,6 +17,7 @@ export class OSMap extends HTMLElement {
   static defaultStylesAdded = false;
   map = null;
   originalData = null;
+  viewportBounds = null;
   mapRefocus = false;
   selectedTypes = [];
   selectedSizes = [];
@@ -35,11 +36,15 @@ export class OSMap extends HTMLElement {
     }
 
     const id = this.getAttribute("data-os-map-id") || "map";
-    const endpoint = this.getAttribute("data-os-map-endpoint") || this.getAttribute("data-os-endpoint");
-    const key = this.getAttribute("data-os-map-key") || this.getAttribute("data-os-key");
+    const endpoint =
+      this.getAttribute("data-os-map-endpoint") ||
+      this.getAttribute("data-os-endpoint");
+    const key =
+      this.getAttribute("data-os-map-key") || this.getAttribute("data-os-key");
     const mapStyle = this.getAttribute("data-os-map-style");
     const hasMapLockAttribute = this.hasAttribute("data-os-map-lock");
-    const mapLock = hasMapLockAttribute && this.getAttribute("data-os-map-lock");
+    const mapLock =
+      hasMapLockAttribute && this.getAttribute("data-os-map-lock");
     const mapProjection = this.getAttribute("data-os-map-projection");
     const mapLatitude = parseFloat(this.getAttribute("data-os-map-lat"));
     const mapLongitude = parseFloat(this.getAttribute("data-os-map-lng"));
@@ -56,6 +61,18 @@ export class OSMap extends HTMLElement {
     const mapBoundNorth = parseFloat(
       this.getAttribute("data-os-map-bound-north"),
     );
+    const mapViewportWest = parseFloat(
+      this.getAttribute("data-os-map-viewport-west"),
+    );
+    const mapViewportSouth = parseFloat(
+      this.getAttribute("data-os-map-viewport-south"),
+    );
+    const mapViewportEast = parseFloat(
+      this.getAttribute("data-os-map-viewport-east"),
+    );
+    const mapViewportNorth = parseFloat(
+      this.getAttribute("data-os-map-viewport-north"),
+    );
     const hasMapRefocusAttr = this.hasAttribute("data-os-map-refocus");
     const mapRefocusAttrValue =
       hasMapRefocusAttr && this.getAttribute("data-os-map-refocus");
@@ -63,13 +80,18 @@ export class OSMap extends HTMLElement {
 
     const mapCenter =
       mapLongitude && mapLatitude ? [mapLongitude, mapLatitude] : null;
-    const maxBounds =
-      mapBoundWest && mapBoundSouth && mapBoundEast && mapBoundNorth
-        ? [
-            [mapBoundWest, mapBoundSouth],
-            [mapBoundEast, mapBoundNorth],
-          ]
-        : null;
+    this.viewportBounds = this.buildBounds(
+      mapViewportWest,
+      mapViewportSouth,
+      mapViewportEast,
+      mapViewportNorth,
+    );
+    const maxBounds = this.buildBounds(
+      mapBoundWest,
+      mapBoundSouth,
+      mapBoundEast,
+      mapBoundNorth,
+    );
 
     // Build filter dropdowns
     const filtersContainer = document.createElement("div");
@@ -99,7 +121,8 @@ export class OSMap extends HTMLElement {
     mapboxgl.accessToken = key;
     this.map = new mapboxgl.Map({
       container: id,
-      zoom: mapZoom || null,
+      center: mapCenter,
+      zoom: mapZoom || 0,
       style: mapStyle,
       cooperativeGestures: hasMapLockAttribute && mapLock !== "false",
       scrollZoom: !mapLock,
@@ -111,11 +134,12 @@ export class OSMap extends HTMLElement {
       maxBounds: maxBounds,
     });
 
-    if (mapCenter) {
-      this.map.setCenter(mapCenter);
-    }
-
     this.map.on("load", () => {
+      if (this.viewportBounds) {
+        this.map.fitBounds(this.viewportBounds, {
+          padding: { top: 10, bottom: 10, left: 10, right: 10 },
+        });
+      }
       if (endpoint) {
         fetch(endpoint)
           .then((response) => response.json())
@@ -292,6 +316,14 @@ export class OSMap extends HTMLElement {
       const container = document.getElementById(containerId);
       const dropdownToggle = container.querySelector(".os-map-dropdown-toggle");
       const dropdownMenu = container.querySelector(".os-map-dropdown-menu");
+      const menuList = container.querySelector(".os-map-dropdown-menu-list");
+      const closeButton = container.querySelector(
+        ".os-map-dropdown-close-button",
+      );
+      const resetButton = container.querySelector(
+        ".os-map-filter-reset-button",
+      );
+      const countElement = container.querySelector(".os-map-filter-count");
       const arrow = dropdownToggle.querySelector(".os-map-arrow");
 
       dropdownToggle.addEventListener("click", () => {
@@ -321,34 +353,76 @@ export class OSMap extends HTMLElement {
         }
       });
 
+      closeButton.addEventListener("click", () => {
+        dropdownMenu.classList.remove("show");
+        arrow.classList.remove("rotate");
+      });
+
       dropdownMenu.addEventListener("click", (e) => e.stopPropagation());
 
-      const dropdownItems = [ ...new Set(this.originalData.features.map((feature) => {
-        return feature.properties[type];
-      }).sort())];
+      const dropdownItems = [
+        ...new Set(
+          this.originalData.features
+            .map((feature) => {
+              return feature.properties[type];
+            })
+            .sort(),
+        ),
+      ];
 
       dropdownItems.forEach((value) => {
         const itemHTML = `
-          <label class="os-map-dropdown-item">
-            <input type="checkbox" value="${value}" />
-            <span class="os-map-empty-checkbox"></span>
-            <span class="os-map-check-icon"></span>
-            <span class="${type === "type" ? "os-map-badge " + value.toLowerCase() : ""}">
-              ${type === "state" ? stateMapper[value.trim()] : value}
-            </span>
-          </label>
+        <label class="os-map-dropdown-item">
+        <input type="checkbox" value="${value}" />
+        <span class="os-map-empty-checkbox"></span>
+        <span class="os-map-check-icon"></span>
+        <span class="${type === "type" ? "os-map-badge " + value.toLowerCase() : ""}">
+        ${type === "state" ? stateMapper[value.trim()] : value}
+        </span>
+        </label>
         `;
-        dropdownMenu.innerHTML += itemHTML;
+        menuList.innerHTML += itemHTML;
       });
 
-      return container.querySelectorAll("input[type=checkbox]");
+      const checkboxes = container.querySelectorAll("input[type=checkbox]");
+
+      resetButton.addEventListener("click", () => {
+        checkboxes.forEach((checkbox) => {
+          checkbox.checked = false;
+        });
+
+        if (type === "type") {
+          this.selectedTypes = [];
+        } else if (type === "size") {
+          this.selectedSizes = [];
+        } else if (type === "state") {
+          this.selectedStates = [];
+        }
+
+        const filteredData = this.getFilteredData();
+        this.map.getSource("locations").setData(filteredData);
+        countElement.innerHTML = "";
+      });
+
+      return {
+        countElement: countElement,
+        checkboxes: checkboxes,
+      };
     };
 
-    const typeCheckboxes = setupDropdown("os-map-filter-type", "type");
-    const sizeCheckboxes = setupDropdown("os-map-filter-size", "size");
-    const stateCheckboxes = setupDropdown("os-map-filter-state", "state");
+    const typeFilterSetup = setupDropdown("os-map-filter-type", "type");
+    const sizeFilterSetup = setupDropdown("os-map-filter-size", "size");
+    const stateFilterSetup = setupDropdown("os-map-filter-state", "state");
 
-    typeCheckboxes.forEach((input) => {
+    const setCount = (element, count) => {
+      if (count === 0) {
+        element.innerHTML = "";
+      } else {
+        element.innerHTML = `(${count})`;
+      }
+    };
+
+    typeFilterSetup.checkboxes.forEach((input) => {
       input.addEventListener("change", (event) => {
         if (event.target.checked) {
           this.selectedTypes.push(event.target.value);
@@ -359,10 +433,11 @@ export class OSMap extends HTMLElement {
         }
         const filteredData = this.getFilteredData();
         this.map.getSource("locations").setData(filteredData);
+        setCount(typeFilterSetup.countElement, this.selectedTypes.length);
       });
     });
 
-    sizeCheckboxes.forEach((input) => {
+    sizeFilterSetup.checkboxes.forEach((input) => {
       input.addEventListener("change", (event) => {
         if (event.target.checked) {
           this.selectedSizes.push(event.target.value);
@@ -373,10 +448,11 @@ export class OSMap extends HTMLElement {
         }
         const filteredData = this.getFilteredData();
         this.map.getSource("locations").setData(filteredData);
+        setCount(sizeFilterSetup.countElement, this.selectedSizes.length);
       });
     });
 
-    stateCheckboxes.forEach((input) => {
+    stateFilterSetup.checkboxes.forEach((input) => {
       input.addEventListener("change", (event) => {
         if (event.target.checked) {
           this.selectedStates.push(event.target.value);
@@ -387,12 +463,44 @@ export class OSMap extends HTMLElement {
         }
         const filteredData = this.getFilteredData();
         this.map.getSource("locations").setData(filteredData);
+        setCount(stateFilterSetup.countElement, this.selectedStates.length);
       });
     });
   }
 
   setupEventHandlers() {
     const map = this.map;
+
+    if (this.viewportBounds) {
+      let debounceTimer;
+      window.addEventListener("resize", () => {
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => {
+          this.map.fitBounds(this.viewportBounds, {
+            padding: { top: 10, bottom: 10, left: 10, right: 10 },
+          });
+        }, 300);
+      });
+    }
+
+    const openPopup = (e) => {
+      const coordinates = e.features[0].geometry.coordinates.slice();
+      const properties = e.features[0].properties;
+      const viewportWidth = window.innerWidth;
+
+      const popup = new mapboxgl.Popup({
+        offset: 20,
+        maxWidth: viewportWidth > 600 ? "350px" : "250px",
+      })
+        .setLngLat(coordinates)
+        .setHTML(this.buildPopupContent(properties))
+        .addTo(map);
+
+      popup.addClassName("open");
+      popup.on("close", () => {
+        popup.removeClassName("open");
+      });
+    };
 
     map.on("click", "clusters", (e) => {
       const features = map.queryRenderedFeatures(e.point, {
@@ -536,15 +644,7 @@ export class OSMap extends HTMLElement {
               },
             });
 
-            map.on("click", "expanded-cluster-points", (e) => {
-              const coordinates = e.features[0].geometry.coordinates.slice();
-              const properties = e.features[0].properties;
-
-              new mapboxgl.Popup({ offset: 20 })
-                .setLngLat(coordinates)
-                .setHTML(this.buildPopupContent(properties))
-                .addTo(map);
-            });
+            map.on("click", "expanded-cluster-points", openPopup);
           } else {
             map
               .getSource("expanded-cluster")
@@ -553,15 +653,7 @@ export class OSMap extends HTMLElement {
         });
     });
 
-    map.on("click", "unclustered-point", (e) => {
-      const coordinates = e.features[0].geometry.coordinates.slice();
-      const properties = e.features[0].properties;
-
-      new mapboxgl.Popup({ offset: 20 })
-        .setLngLat(coordinates)
-        .setHTML(this.buildPopupContent(properties))
-        .addTo(map);
-    });
+    map.on("click", "unclustered-point", openPopup);
 
     // Clean up expanded clusters when zooming
     map.on("zoom", () => {
@@ -604,20 +696,29 @@ export class OSMap extends HTMLElement {
 
   buildPopupContent(properties) {
     return `
-      <img class="os-map-popup-content-image" src="${properties.image}" />
-      <div class="os-map-popup-content-description">
-        <span class="os-map-badge ${properties.type.toLowerCase()}">${properties.type}</span>
-        <h3>${properties.name}</h3>
-        <div class="os-map-popup-content-footer">
-          <div class="os-map-popup-content-footer-item">
-            <img class="os-map-popup-content-icon" src="${chargerIcon}" /><span>${properties.size}</span>
-          </div>
-          <div class="os-map-popup-content-footer-item">
-            <img class="os-map-popup-content-icon" src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
-          </div>
-        </div>
-      </div>
+    <img class="os-map-popup-content-image" src="${properties.image}" />
+    <div class="os-map-popup-content-description">
+    <span class="os-map-badge ${properties.type.toLowerCase()}">${properties.type}</span>
+    <h3>${properties.name}</h3>
+    <div class="os-map-popup-content-footer">
+    <div class="os-map-popup-content-footer-item">
+    <img class="os-map-popup-content-icon" src="${chargerIcon}" /><span>${properties.size}</span>
+    </div>
+    <div class="os-map-popup-content-footer-item">
+    <img class="os-map-popup-content-icon" src="${locationIcon}" /><span>${properties.city}, ${properties.state}</span>
+    </div>
+    </div>
+    </div>
     `;
+  }
+
+  buildBounds(west, south, east, north) {
+    return west && south && east && north
+      ? [
+          [west, south],
+          [east, north],
+        ]
+      : null;
   }
 }
 

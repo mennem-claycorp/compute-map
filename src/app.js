@@ -574,21 +574,38 @@ export class OSMap extends HTMLElement {
             (clusterCenter[1] * Math.PI) / 180,
           );
 
-          clusterFeatures = clusterFeatures.map((feature, index) => {
-            const angle = (index / clusterFeatures.length) * 2 * Math.PI;
-            const newLng =
-              clusterCenter[0] +
-              (radius * Math.cos(angle)) / latitudeAdjustment;
-            const newLat = clusterCenter[1] + radius * Math.sin(angle);
+          clusterFeatures = clusterFeatures
+            .sort((a, b) => {
+              const cityA = a.properties.city.toLowerCase();
+              const cityB = b.properties.city.toLowerCase();
+              const nameA = a.properties.name.toLowerCase();
+              const nameB = b.properties.name.toLowerCase();
 
-            return {
-              ...feature,
-              geometry: {
-                ...feature.geometry,
-                coordinates: [newLng, newLat],
-              },
-            };
-          });
+              if (cityA + " " + nameA < cityB + " " + nameB) return -1;
+              if (cityA + " " + nameA > cityB + " " + nameB) return 1;
+
+              return 0;
+            })
+            .map((feature, index) => {
+              const angle =
+                ((clusterFeatures.length - index) / clusterFeatures.length) *
+                  2 *
+                  Math.PI +
+                Math.PI / 2;
+
+              const newLng =
+                clusterCenter[0] +
+                (radius * Math.cos(angle)) / latitudeAdjustment;
+              const newLat = clusterCenter[1] + radius * Math.sin(angle);
+
+              return {
+                ...feature,
+                geometry: {
+                  ...feature.geometry,
+                  coordinates: [newLng, newLat],
+                },
+              };
+            });
 
           const expandedClusterSource = {
             type: "geojson",

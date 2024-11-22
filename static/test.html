@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Embedded OS Map</title>
+  <script src="http://localhost:8000/dist/os-map.min.js" defer=""></script>  
+</head>
+<body>
+  <h1>Interactive OS Map</h1>
+  <p>Explore the map below:</p>
+  
+  <os-map 
+    data-os-key="pk.eyJ1IjoiaGVnbHVuZHAiLCJhIjoiY20zM3d6ZXNwMW84MDJxcHo3MGIzeHhidyJ9.Fm5XqanmBCKyrQai8EaegA"
+    data-os-endpoint="https://cdn.jsdelivr.net/gh/mennem-claycorp/compute-map/src/locations.json"
+    data-os-map-lat="39.8283"
+    data-os-map-lng="-98.5795"
+    data-os-map-zoom="4"
+    data-os-map-style="mapbox://styles/mapbox/light-v11"
+    data-os-map-lock="true"
+    style="width: 900px; height: 500px;">
+  </os-map>
+</body>
+</html>
+

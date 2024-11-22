@@ -29,6 +29,14 @@ export class OSMap extends HTMLElement {
   }
 
   connectedCallback() {
+    if (mapboxgl.supported()) {
+      // Hide fallback content
+      Array.from(this.children).forEach((el) => {
+        el.classList.add("os-hidden");
+      });
+    } else {
+      return;
+    }
     // Add default styles if they haven't been added yet
     if (!OSMap.defaultStylesAdded) {
       document.head.insertAdjacentHTML("afterbegin", this.defaultStyles);
@@ -574,12 +582,16 @@ export class OSMap extends HTMLElement {
             (clusterCenter[1] * Math.PI) / 180,
           );
 
+          const normalize = (value) => {
+            return value?.toLowerCase().trim();
+          };
+
           clusterFeatures = clusterFeatures
             .sort((a, b) => {
-              const cityA = a.properties.city.toLowerCase();
-              const cityB = b.properties.city.toLowerCase();
-              const nameA = a.properties.name.toLowerCase();
-              const nameB = b.properties.name.toLowerCase();
+              const cityA = normalize(a.properties.city);
+              const cityB = normalize(b.properties.city);
+              const nameA = normalize(a.properties.name);
+              const nameB = normalize(b.properties.name);
 
               if (cityA + " " + nameA < cityB + " " + nameB) return -1;
               if (cityA + " " + nameA > cityB + " " + nameB) return 1;

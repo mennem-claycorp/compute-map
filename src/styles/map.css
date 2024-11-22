@@ -11,6 +11,10 @@ os-map {
   line-height: normal;
 }
 
+.os-hidden {
+  display: none;
+}
+
 .os-map-container {
   position: relative;
   width: auto;

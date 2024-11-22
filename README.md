@@ -95,6 +95,15 @@ GeoJSON object should have next structure:
 }
 ```
 
+# Fallback content
+To handle scenarios where Mapbox GL is unsupported by the browser, include the fallback content within the <os-map> tag. 
+
+```html
+<os-map>
+    <img src="https://example.com/image.png" />
+</os-map>
+```
+
 # Styling
 
 The map dimensions can be controlled by setting the height and width of the `.os-map-container` class.

@@ -12,6 +12,8 @@ Add the `<os-map>` component to your page using the following attributes:
 | `data-os-map-lat`         | Initial latitude position of the map                  | `39.8283`                            |
 | `data-os-map-lng`         | Initial longitude position of the map                 | `-98.5795`                           |
 | `data-os-map-zoom`        | Initial zoom level of the map                         | `4`                                  |
+| `data-os-map-zoom-max`        | Max zoom level of the map                         | `6`                                  |
+| `data-os-map-zoom-min`        | Min zoom level of the map                         | `2`                                  |
 | `data-os-map-style`       | Mapbox style to be used for the map                   | `mapbox://styles/mapbox/streets-v11` |
 | `data-os-map-lock`        | Prevents map zooming when scrolling                   | `true`                               |
 | `data-os-map-projection`  | Specifies which projection the map is rendered in. Available values: "albers", "equalEarth", "equirectangular", "lambertConformalConic", "mercator", "naturalEarth", "winkelTripel", "globe". Defaults to "mercator" | `mercator`                               |

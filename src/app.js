@@ -49,6 +49,8 @@ export class OSMap extends HTMLElement {
     const mapLatitude = parseFloat(this.getAttribute("data-os-map-lat"));
     const mapLongitude = parseFloat(this.getAttribute("data-os-map-lng"));
     const mapZoom = parseFloat(this.getAttribute("data-os-map-zoom"));
+    const minZoom = parseFloat(this.getAttribute("data-os-map-zoom-min"));
+    const maxZoom = parseFloat(this.getAttribute("data-os-map-zoom-max"));
     const mapBoundWest = parseFloat(
       this.getAttribute("data-os-map-bound-west"),
     );
@@ -124,14 +126,16 @@ export class OSMap extends HTMLElement {
       center: mapCenter,
       zoom: mapZoom || 0,
       style: mapStyle,
+      doubleClickZoom: false,
       cooperativeGestures: hasMapLockAttribute && mapLock !== "false",
-      scrollZoom: !mapLock,
       projection: {
         name: availableMapProjections.includes(mapProjection)
           ? mapProjection
           : "mercator",
       },
       maxBounds: maxBounds,
+      minZoom: minZoom || 0,
+      maxZoom: maxZoom || 22,
     });
 
     this.map.on("load", () => {

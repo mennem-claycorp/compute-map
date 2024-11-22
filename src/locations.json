@@ -1632,7 +1632,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Campus 1 Building 1",
+                "name": "Campus 2 Building 1",
                 "type": "Hyperscale",
                 "size": "1+ MW",
                 "city": "Quincy",
@@ -1654,7 +1654,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Campus 1 Building 2",
+                "name": "Campus 2 Building 2",
                 "type": "Hyperscale",
                 "size": "1+ MW",
                 "city": "Quincy",

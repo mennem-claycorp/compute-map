@@ -1,8 +1,8 @@
-os-map {
-  * {
-    box-sizing: border-box;
-  }
+os-map * {
+  box-sizing: border-box;
+}
 
+os-map {
   color: #212121;
   font-family:
     Helvetica Neue,
@@ -89,27 +89,6 @@ os-map {
   border: 1px solid #212121;
   display: none;
   z-index: 5;
-
-  @media screen and (max-width: 480px) {
-    position: fixed;
-    top: unset;
-    bottom: 0;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100%;
-    border: 0;
-
-    &::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.5);
-      z-index: -1;
-    }
-  }
 }
 
 .os-map-dropdown-menu-header {
@@ -120,12 +99,6 @@ os-map {
   padding: 16px;
   border-bottom: 1px solid rgba(28, 27, 31, 0.1);
   border-radius: 15px 15px 0px 0px;
-
-  @media screen and (max-width: 480px) {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 }
 
 .os-map-dropdown-menu-list {
@@ -133,10 +106,6 @@ os-map {
   overflow-y: auto;
   padding: 16px 16px 36px;
   background: #fff;
-
-  @media screen and (max-width: 480px) {
-    padding-bottom: 40px;
-  }
 }
 
 .os-map-dropdown-close-button {
@@ -160,10 +129,6 @@ os-map {
   left: 0;
   right: 0;
   padding: 8px 16px;
-
-  @media screen and (max-width: 480px) {
-    padding-bottom: 16px;
-  }
 }
 
 .os-map-filter-reset-button {
@@ -187,18 +152,10 @@ os-map {
 
 #os-map-filter-size .os-map-dropdown-menu {
   width: 200px;
-
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
 }
 
 #os-map-filter-state .os-map-dropdown-menu {
   width: 220px;
-
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
 }
 
 .os-map-dropdown-menu.show {
@@ -290,15 +247,15 @@ os-map {
 
 .os-map-popup-content-description {
   padding: 20px 16px 24px;
+}
 
-  h3 {
-    font-size: 24px;
-    line-height: normal;
-    font-weight: 500;
-    margin-top: 0;
-    margin-top: 16px;
-    margin-bottom: 26px;
-  }
+.os-map-popup-content-description h3 {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+  margin-top: 0;
+  margin-top: 16px;
+  margin-bottom: 26px;
 }
 
 .os-map-popup-content-footer {
@@ -320,178 +277,225 @@ os-map {
   align-items: center;
 }
 
-.os-map-container {
-  .mapboxgl-map {
-    width: 100%;
-    position: absolute;
-    top: 0;
+.os-map-container .mapboxgl-map {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: unset;
+}
+
+.os-map-container .mapboxgl-popup {
+  opacity: 0;
+  z-index: 2;
+
+  transition: opacity 0.3s ease;
+}
+
+.os-map-container .mapboxgl-popup.open {
+  opacity: 1;
+}
+
+.os-map-container .mapboxgl-popup-content {
+  width: 350px;
+  padding: 0;
+  color: #212121;
+  border-radius: 0;
+}
+
+.os-map-container .mapboxgl-popup-close-button {
+  display: none;
+}
+
+.os-map-container .os-map-popup-content-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.os-map-container .mapboxgl-popup-anchor-right .mapboxgl-popup-content {
+  border-right: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+  border-left-color: #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+  border-right-color: #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-left .mapboxgl-popup-content {
+  border-left: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-bottom .mapboxgl-popup-content,
+.os-map-container .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-content,
+.os-map-container .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-content {
+  border-bottom: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.os-map-container .mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.os-map-container .mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+  border-top-color: #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.os-map-container .mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip,
+.os-map-container .mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+  border-bottom-color: #212121;
+}
+
+.os-map-container .mapboxgl-popup-anchor-top .mapboxgl-popup-content,
+.os-map-container .mapboxgl-popup-anchor-top-left .mapboxgl-popup-content,
+.os-map-container .mapboxgl-popup-anchor-top-right .mapboxgl-popup-content {
+  border-top: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-ctrl-group {
+  border-radius: 0;
+}
+
+.os-map-container .mapboxgl-ctrl-group button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-ctrl-group:not(:empty) {
+  box-shadow: none;
+  display: flex;
+}
+
+.os-map-container .mapboxgl-ctrl-group button + button {
+  border-radius: 0;
+  border: 1px solid #212121;
+}
+
+.os-map-container .mapboxgl-ctrl-group button:last-child {
+  border-radius: 0;
+}
+
+.os-map-container .mapboxgl-ctrl-group button:first-child {
+  border-radius: 0;
+  border-right: 0;
+}
+
+.os-map-container .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
+  margin: 0 24px 24px 0;
+}
+
+/* Hide Mapbox logo */
+.os-map-container .mapboxgl-ctrl-logo,
+.os-map-container .mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
+
+.os-map-container .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+  display: none;
+}
+
+.os-map-container .mapboxgl-ctrl.mapboxgl-ctrl-attrib.mapboxgl-compact {
+  display: none;
+}
+/* end of Hide Mapbox logo */
+
+.os-map-container
+  .mapboxgl-ctrl
+  button.mapboxgl-ctrl-zoom-in
+  .mapboxgl-ctrl-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImFkZCI+CjxtYXNrIGlkPSJtYXNrMF8zXzE4NzciIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSI+CjxyZWN0IGlkPSJCb3VuZGluZyBib3giIHk9IjAuOTA5OTEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzNfMTg3NykiPgo8cGF0aCBpZD0iYWRkXzIiIGQ9Ik0xMSAxMy45MDk5SDVWMTEuOTA5OUgxMVY1LjkwOTkxSDEzVjExLjkwOTlIMTlWMTMuOTA5OUgxM1YxOS45MDk5SDExVjEzLjkwOTlaIiBmaWxsPSIjMjEyMTIxIi8+CjwvZz4KPC9nPgo8L3N2Zz4K");
+}
+
+.os-map-container
+  .mapboxgl-ctrl
+  button.mapboxgl-ctrl-zoom-out
+  .mapboxgl-ctrl-icon {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InJlbW92ZSI+CjxtYXNrIGlkPSJtYXNrMF8zXzE4ODEiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSI+CjxyZWN0IGlkPSJCb3VuZGluZyBib3giIHk9IjAuOTA5OTEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzNfMTg4MSkiPgo8cGF0aCBpZD0icmVtb3ZlXzIiIGQ9Ik01IDEzLjkwOTlWMTEuOTA5OUgxOVYxMy45MDk5SDVaIiBmaWxsPSIjMjEyMTIxIi8+CjwvZz4KPC9nPgo8L3N2Zz4K");
+}
+
+@media screen and (max-width: 480px) {
+  .os-map-dropdown-menu {
+    position: fixed;
+    top: unset;
     bottom: 0;
-    overflow: unset;
-  }
-
-  .mapboxgl-popup {
-    opacity: 0;
-    z-index: 2;
-
-    transition: opacity 0.3s ease;
-  }
-
-  .mapboxgl-popup.open {
-    opacity: 1;
-  }
-
-  .mapboxgl-popup-content {
-    width: 350px;
-    padding: 0;
-    color: #212121;
-    border-radius: 0;
-  }
-
-  .mapboxgl-popup-close-button {
-    display: none;
-  }
-
-  .os-map-popup-content-image {
+    left: 0 !important;
+    right: 0 !important;
     width: 100%;
-    height: 120px;
-    object-fit: cover;
-  }
+    border: 0;
 
-  @media screen and (max-width: 480px) {
-    .mapboxgl-popup-content {
-      width: 250px;
-    }
-
-    .os-map-popup-content-image {
-      height: 100px;
-    }
-
-    .os-map-badge {
-      font-size: 12px;
-    }
-
-    .os-map-popup-content-description {
-      padding: 10px 12px;
-    }
-
-    .os-map-popup-content-footer-item {
-      font-size: 12px;
-    }
-
-    .os-map-popup-content-footer {
-      gap: 10px;
-    }
-
-    .os-map-popup-content-icon {
-      width: 16px;
-      height: 16px;
-      margin-right: 4px;
-    }
-
-    h3 {
-      font-size: 16px;
-      margin-top: 8px;
-      margin-bottom: 12px;
+    &::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
     }
   }
 
-  .mapboxgl-popup-anchor-right {
-    .mapboxgl-popup-tip {
-      border-left-color: #212121;
-    }
-
-    .mapboxgl-popup-content {
-      border-right: 1px solid #212121;
-    }
+  .os-map-dropdown-menu-list {
+    padding-bottom: 40px;
   }
 
-  .mapboxgl-popup-anchor-left {
-    .mapboxgl-popup-tip {
-      border-right-color: #212121;
-    }
-
-    .mapboxgl-popup-content {
-      border-left: 1px solid #212121;
-    }
+  #os-map-filter-size .os-map-dropdown-menu {
+    width: 100%;
   }
 
-  .mapboxgl-popup-anchor-bottom,
-  .mapboxgl-popup-anchor-bottom-left,
-  .mapboxgl-popup-anchor-bottom-right {
-    .mapboxgl-popup-tip {
-      border-top-color: #212121;
-    }
-
-    .mapboxgl-popup-content {
-      border-bottom: 1px solid #212121;
-    }
+  #os-map-filter-state .os-map-dropdown-menu {
+    width: 100%;
   }
 
-  .mapboxgl-popup-anchor-top,
-  .mapboxgl-popup-anchor-top-left,
-  .mapboxgl-popup-anchor-top-right {
-    .mapboxgl-popup-tip {
-      border-bottom-color: #212121;
-    }
-
-    .mapboxgl-popup-content {
-      border-top: 1px solid #212121;
-    }
+  .os-map-dropdown-menu-list {
+    padding-bottom: 40px;
   }
 
-  .mapboxgl-ctrl-group {
-    border-radius: 0;
-  }
-
-  .mapboxgl-ctrl-group button {
-    width: 40px;
-    height: 40px;
-    border: 1px solid #212121;
-  }
-
-  .mapboxgl-ctrl-group:not(:empty) {
-    box-shadow: none;
+  .os-map-dropdown-menu-header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .mapboxgl-ctrl-group button + button {
-    border-radius: 0;
-    border: 1px solid #212121;
+  .os-map-dropdown-menu-footer {
+    padding-bottom: 16px;
   }
 
-  .mapboxgl-ctrl-group button:last-child {
-    border-radius: 0;
+  .os-map-container .mapboxgl-popup-content {
+    width: 250px;
   }
 
-  .mapboxgl-ctrl-group button:first-child {
-    border-radius: 0;
-    border-right: 0;
+  .os-map-container .os-map-popup-content-image {
+    height: 100px;
   }
 
-  .mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
-    margin: 0 24px 24px 0;
+  .os-map-container .os-map-badge {
+    font-size: 12px;
   }
 
-  /* Hide Mapbox logo */
-  .mapboxgl-ctrl-logo,
-  .mapboxgl-ctrl-attrib-inner {
-    display: none;
+  .os-map-container .os-map-popup-content-description {
+    padding: 10px 12px;
   }
 
-  .mapboxgl-ctrl.mapboxgl-ctrl-attrib {
-    display: none;
+  .os-map-container .os-map-popup-content-footer-item {
+    font-size: 12px;
   }
 
-  .mapboxgl-ctrl.mapboxgl-ctrl-attrib.mapboxgl-compact {
-    display: none;
-  }
-  /* end of Hide Mapbox logo */
-
-  .mapboxgl-ctrl button.mapboxgl-ctrl-zoom-in .mapboxgl-ctrl-icon {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9ImFkZCI+CjxtYXNrIGlkPSJtYXNrMF8zXzE4NzciIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSI+CjxyZWN0IGlkPSJCb3VuZGluZyBib3giIHk9IjAuOTA5OTEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzNfMTg3NykiPgo8cGF0aCBpZD0iYWRkXzIiIGQ9Ik0xMSAxMy45MDk5SDVWMTEuOTA5OUgxMVY1LjkwOTkxSDEzVjExLjkwOTlIMTlWMTMuOTA5OUgxM1YxOS45MDk5SDExVjEzLjkwOTlaIiBmaWxsPSIjMjEyMTIxIi8+CjwvZz4KPC9nPgo8L3N2Zz4K");
+  .os-map-container .os-map-popup-content-footer {
+    gap: 10px;
   }
 
-  .mapboxgl-ctrl button.mapboxgl-ctrl-zoom-out .mapboxgl-ctrl-icon {
-    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InJlbW92ZSI+CjxtYXNrIGlkPSJtYXNrMF8zXzE4ODEiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSI+CjxyZWN0IGlkPSJCb3VuZGluZyBib3giIHk9IjAuOTA5OTEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzNfMTg4MSkiPgo8cGF0aCBpZD0icmVtb3ZlXzIiIGQ9Ik01IDEzLjkwOTlWMTEuOTA5OUgxOVYxMy45MDk5SDVaIiBmaWxsPSIjMjEyMTIxIi8+CjwvZz4KPC9nPgo8L3N2Zz4K");
+  .os-map-container .os-map-popup-content-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+  }
+
+  .os-map-container h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 12px;
   }
 }

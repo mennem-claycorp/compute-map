@@ -10,10 +10,10 @@
                 "city": "Atlanta",
                 "state": "GA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -32,10 +32,10 @@
                 "city": "Avondale",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -54,10 +54,10 @@
                 "city": "Avondale",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -76,10 +76,10 @@
                 "city": "Avondale",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -98,10 +98,10 @@
                 "city": "Berkeley",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514527/clayco/Express%20Scripts.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/express-scripts.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -120,10 +120,10 @@
                 "city": "Boardman",
                 "state": "OR ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -142,10 +142,10 @@
                 "city": "Boardman",
                 "state": "OR ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -164,10 +164,10 @@
                 "city": "Boardman",
                 "state": "OR ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -186,10 +186,10 @@
                 "city": "Boardman",
                 "state": "OR ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -208,10 +208,10 @@
                 "city": "Boydton",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -230,10 +230,10 @@
                 "city": "Bridgeport",
                 "state": "AL",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -252,10 +252,10 @@
                 "city": "Bridgeport",
                 "state": "AL",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -274,10 +274,10 @@
                 "city": "Bridgeport",
                 "state": "AL",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -296,10 +296,10 @@
                 "city": "Bridgeport",
                 "state": "AL",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -318,10 +318,10 @@
                 "city": "Champaign",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1732271877/clayco/NCSA-3.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ncsa.jpg",
+                "iconUrl": null,
                 "colorCode": "#1476E8",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -340,10 +340,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -362,10 +362,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -384,10 +384,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -406,10 +406,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -428,10 +428,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -450,10 +450,10 @@
                 "city": "Cheyenne",
                 "state": "WY ",
                 "region": "Mountain West",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -472,10 +472,10 @@
                 "city": "Chicago",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto/v1731514770/clayco/Quantum_Campus.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514840/clayco/location-quantum.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/quantum-campus.jpg",
+                "iconUrl": null,
                 "colorCode": "#1476E8",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -494,10 +494,10 @@
                 "city": "Chicago",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/v1731514524/clayco/Univ%20of%20Chicago%20POD%20B%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/u-chicago.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -516,10 +516,10 @@
                 "city": "Council Bluffs",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -538,10 +538,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -560,10 +560,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -582,10 +582,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -604,10 +604,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -626,10 +626,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -648,10 +648,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -670,10 +670,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -692,10 +692,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -714,10 +714,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -736,10 +736,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -758,10 +758,10 @@
                 "city": "Des Moines",
                 "state": "IA",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -780,10 +780,10 @@
                 "city": "East Wenatchee",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -802,10 +802,10 @@
                 "city": "East Wenatchee",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -824,10 +824,10 @@
                 "city": "East Wenatchee",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -846,10 +846,10 @@
                 "city": "Elk Grove Village",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -868,10 +868,10 @@
                 "city": "Elk Grove Village",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -890,10 +890,10 @@
                 "city": "Fayetteville",
                 "state": "GA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -912,10 +912,10 @@
                 "city": "Fayetteville",
                 "state": "GA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -934,10 +934,10 @@
                 "city": "Goodyear",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -956,10 +956,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -978,10 +978,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1000,10 +1000,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1022,10 +1022,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1044,10 +1044,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1066,10 +1066,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1088,10 +1088,10 @@
                 "city": "Hilliard",
                 "state": "OH ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1110,10 +1110,10 @@
                 "city": "Lithia Springs",
                 "state": "GA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1132,10 +1132,10 @@
                 "city": "Lithia Springs",
                 "state": "GA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1154,10 +1154,10 @@
                 "city": "Maryland Heights",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Magellan%20Behavioral%20Health%20Office.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-1.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1176,10 +1176,10 @@
                 "city": "Maryland Heights",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731513844/clayco/Magellan%20Health%20Services%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-2.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1198,10 +1198,10 @@
                 "city": "Mesa ",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1220,10 +1220,10 @@
                 "city": "Mesa",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1242,10 +1242,10 @@
                 "city": "Mesa",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1264,10 +1264,10 @@
                 "city": "Mesa",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1286,10 +1286,10 @@
                 "city": "New Carlisle",
                 "state": "IN ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1308,10 +1308,10 @@
                 "city": "New Carlisle",
                 "state": "IN ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1330,10 +1330,10 @@
                 "city": "New Carlisle",
                 "state": "IN ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1352,10 +1352,10 @@
                 "city": "New Carlisle",
                 "state": "IN ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1374,10 +1374,10 @@
                 "city": "New Carlisle",
                 "state": "IN ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1396,10 +1396,10 @@
                 "city": "North Charleston",
                 "state": "SC ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514526/clayco/Roper%20St.%20Francis%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/roper.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1418,10 +1418,10 @@
                 "city": "O'Fallon",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/BJC%20Progress%20West.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/bjc-progress-west.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1440,10 +1440,10 @@
                 "city": "O'Fallon",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514527/clayco/CitiMortgage.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/citi-mortgage.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1462,10 +1462,10 @@
                 "city": "Oklahoma City",
                 "state": "OK ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514525/clayco/OGandE%20Metro%20Hardening.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-metro.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1484,10 +1484,10 @@
                 "city": "Oklahoma City",
                 "state": "OK ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,w_720/v1731514525/clayco/OGandE%20Operating%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-operating.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1506,10 +1506,10 @@
                 "city": "Olathe",
                 "state": "KS",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1528,10 +1528,10 @@
                 "city": "Phoenix",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1550,10 +1550,10 @@
                 "city": "Phoenix",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1572,10 +1572,10 @@
                 "city": "Phoenix",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1594,10 +1594,10 @@
                 "city": "Phoenix",
                 "state": "AZ ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1616,10 +1616,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514771/clayco/Co-location.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514839/clayco/location-colocation.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+                "iconUrl": null,
                 "colorCode": "#4E2751",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1638,10 +1638,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1660,10 +1660,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1682,10 +1682,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1704,10 +1704,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1726,10 +1726,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1748,10 +1748,10 @@
                 "city": "Quincy",
                 "state": "WA ",
                 "region": "Northwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514767/clayco/Hyperscale.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514842/clayco/location-hyperscale.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+                "iconUrl": null,
                 "colorCode": "#FFC107",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1770,10 +1770,10 @@
                 "city": "Santa Clara",
                 "state": "CA ",
                 "region": "Southwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514526/clayco/Savvis%20SC-7%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/savvis.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1792,10 +1792,10 @@
                 "city": "Schaumburg",
                 "state": "IL ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/f_jpg,q_auto,h_720/v1731514766/clayco/US%20Cellular3.pdf",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/us-cellular.jpeg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1814,10 +1814,10 @@
                 "city": "St. Charles ",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Centene%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1836,10 +1836,10 @@
                 "city": "St. Louis",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514529/clayco/Centene%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1858,10 +1858,10 @@
                 "city": "St. Louis",
                 "state": "MO ",
                 "region": "Midwest",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514525/clayco/Wash%20U%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514838/clayco/location-enterprise.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/wash-u.jpg",
+                "iconUrl": null,
                 "colorCode": "#212121",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1880,10 +1880,10 @@
                 "city": "Stafford",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1902,10 +1902,10 @@
                 "city": "Stafford",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1924,10 +1924,10 @@
                 "city": "Stafford",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1946,10 +1946,10 @@
                 "city": "Stafford",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
@@ -1968,16 +1968,302 @@
                 "city": "Stafford",
                 "state": "VA ",
                 "region": "Southeast",
-                "image": "https://images.expl.ink/image/upload/q_auto,h_720/v1731514769/clayco/AI%20Data%20Center.jpg",
-                "iconUrl": "https://images.expl.ink/image/upload/v1731514841/clayco/location-ai.png",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+                "iconUrl": null,
                 "colorCode": "#28A745",
-                "integratedServices": ""
+                "integratedServices": null
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -77.4083,
                     38.4221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dominion Data Center & New Command Center ",
+                "type": "Enterprise",
+                "size": "2+ MW",
+                "city": "Richmond",
+                "state": "VA ",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
+                "iconUrl": null,
+                "colorCode": "#212121",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.436,
+                    37.5407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Group14 Battery Active Materials Factor",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Moses Lake",
+                "state": "WA",
+                "region": "Northwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/group-14.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.2781,
+                    47.1301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "South Pier at Tempe Town Lake",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Tempe",
+                "state": "AZ",
+                "region": "Southwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/south-20.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.94,
+                    33.4255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helios Solar Panel Manufacturing Facility",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Mesquite",
+                "state": "TX",
+                "region": "Southwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/helios.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.5992,
+                    32.7668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hankook Tire Plant Expansion",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Clarksville",
+                "state": "TN",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/hankook.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.3595,
+                    36.5298
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blue Origin MSFC Engine Test Facility & Blue Engines Facility Expansion",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Huntsville",
+                "state": "AL",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/blue-origin.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.5861,
+                    34.7304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Entek Battery Separator Plant",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Terre Haute",
+                "state": "IN",
+                "region": "Midwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/entek.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.4139,
+                    39.4667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "US Strategic Metals Battery Materials",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Fredericktown",
+                "state": "MO",
+                "region": "Midwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/strategic-metals.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.2943,
+                    37.5595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SK Battery Manufacturing",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Commerce",
+                "state": "GA",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/sk-battery.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.4574,
+                    34.204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Speculative Office Campus",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Charlotte",
+                "state": "NC",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/speculative-office.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.8431,
+                    35.2271
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "O'Hare 21 Program & Satellite Terminal 1",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Chicago",
+                "state": "IL",
+                "region": "Midwest",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/ohare.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.6298,
+                    41.8781
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dominion Energy Tower",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Richmond",
+                "state": "VA",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.436,
+                    37.5407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Confidential Li-Ion Cell Production Facility",
+                "type": "Large Scale (Non-Data)",
+                "size": "N/A",
+                "city": "Florence",
+                "state": "SC",
+                "region": "Southeast",
+                "image": "https://claycorp.com/wp-content/uploads/2024/12/lion-cell.jpg",
+                "iconUrl": null,
+                "colorCode": "#CDCBCB",
+                "integratedServices": null
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.7626,
+                    34.1954
                 ]
             }
         }

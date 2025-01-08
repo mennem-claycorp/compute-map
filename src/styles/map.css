@@ -83,7 +83,7 @@ os-map {
   position: absolute;
   top: 110%;
   left: 0;
-  width: 276px;
+  width: max-content;
   font-size: 18px;
   background: #fff;
   border: 1px solid #212121;
@@ -102,7 +102,7 @@ os-map {
 }
 
 .os-map-dropdown-menu-list {
-  max-height: 274px;
+  max-height: 315px;
   overflow-y: auto;
   padding: 16px 16px 36px;
   background: #fff;
@@ -210,6 +210,7 @@ os-map {
   padding: 4px 8px;
   border-radius: 40px;
   color: white;
+  background-color: #989898;
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase;
@@ -217,25 +218,8 @@ os-map {
   flex-shrink: 0;
 }
 
-.os-map-badge.enterprise {
-  background-color: #212121;
-}
-
-.os-map-badge.quantum {
-  background-color: #1476e8;
-}
-
-.os-map-badge.ai {
-  background-color: #28a745;
-}
-
-.os-map-badge.colocation {
-  background-color: #4e2751;
-}
-
 .os-map-badge.hyperscale {
   color: #212121;
-  background-color: #ffc107;
 }
 
 .os-map-arrow {
@@ -415,6 +399,47 @@ os-map {
   background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNCAyNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgaWQ9InJlbW92ZSI+CjxtYXNrIGlkPSJtYXNrMF8zXzE4ODEiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjAiIHk9IjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSI+CjxyZWN0IGlkPSJCb3VuZGluZyBib3giIHk9IjAuOTA5OTEyIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNEOUQ5RDkiLz4KPC9tYXNrPgo8ZyBtYXNrPSJ1cmwoI21hc2swXzNfMTg4MSkiPgo8cGF0aCBpZD0icmVtb3ZlXzIiIGQ9Ik01IDEzLjkwOTlWMTEuOTA5OUgxOVYxMy45MDk5SDVaIiBmaWxsPSIjMjEyMTIxIi8+CjwvZz4KPC9nPgo8L3N2Zz4K");
 }
 
+.os-map-legend {
+  position: relative;
+  width: fit-content;
+  bottom: 60px;
+  left: 24px;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.os-map-legend-item {
+  border: 1px solid #212121;
+  border-radius: 50px;
+  padding: 4px 12px 4px 4px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.os-map-legend-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.os-map-legend-text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+.os-map-legend-bottom-position {
+  bottom: 0;
+  left: 0;
+  padding: 12px
+}
+
 @media screen and (max-width: 480px) {
   .os-map-dropdown-menu {
     position: fixed;
@@ -497,5 +522,15 @@ os-map {
     font-size: 16px;
     margin-top: 8px;
     margin-bottom: 12px;
+  }
+
+  .os-map-legend-text {
+    font-size: 12px;
+    line-height: 1.1;
+  }
+
+  .os-map-legend-color {
+    width: 14px;
+    height: 14px;
   }
 }

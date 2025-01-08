@@ -16,6 +16,7 @@ Add the `<os-map>` component to your page using the following attributes:
 | `data-os-map-zoom-min`        | Min zoom level of the map                         | `2`                                  |
 | `data-os-map-style`       | Mapbox style to be used for the map                   | `mapbox://styles/mapbox/streets-v11` |
 | `data-os-map-lock`        | Prevents map zooming when scrolling                   | `true`                               |
+| `data-os-map-legend`        | Show map legend                   | `true`                               |
 | `data-os-map-projection`  | Specifies which projection the map is rendered in. Available values: "albers", "equalEarth", "equirectangular", "lambertConformalConic", "mercator", "naturalEarth", "winkelTripel", "globe". Defaults to "mercator" | `mercator`                               |
 | `data-os-map-refocus`  | Re-centers the map to focus on the selected cluster  | `false`                               |
 | `data-os-map-bound-west`  | The western longitude limit of the map bounds | `-122.66`                         |

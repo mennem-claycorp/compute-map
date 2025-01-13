@@ -200,28 +200,38 @@ export class OSMap extends HTMLElement {
     };
     preloadImages(uniquePopupImages);
 
-    // Load map icons
-    const uniqueIcons = [
-      ...new Set(data.features.map((f) => f.properties.iconUrl)),
+    // Create markers for each unique color in the data
+    const createMarkerSVG = (color) => {
+      const svg = `
+        <svg width="32" height="40" viewBox="0 0 32 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16.0001 20C17.1001 20 18.0418 19.6083 18.8251 18.825C19.6085 18.0417 20.0001 17.1 20.0001 16C20.0001 14.9 19.6085 13.9583 18.8251 13.175C18.0418 12.3917 17.1001 12 16.0001 12C14.9001 12 13.9585 12.3917 13.1751 13.175C12.3918 13.9583 12.0001 14.9 12.0001 16C12.0001 17.1 12.3918 18.0417 13.1751 18.825C13.9585 19.6083 14.9001 20 16.0001 20ZM16.0001 40C10.6335 35.4333 6.62512 31.1917 3.97512 27.275C1.32512 23.3583 0.00012207 19.7333 0.00012207 16.4C0.00012207 11.4 1.60846 7.41667 4.82512 4.45C8.04179 1.48333 11.7668 0 16.0001 0C20.2335 0 23.9585 1.48333 27.1751 4.45C30.3918 7.41667 32.0001 11.4 32.0001 16.4C32.0001 19.7333 30.6751 23.3583 28.0251 27.275C25.3751 31.1917 21.3668 35.4333 16.0001 40Z" fill="${color}"/>
+        </svg>
+    `;
+      return `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+    };
+
+    const uniqueColors = [
+      ...new Set(data.features.map((f) => f.properties.colorCode)),
     ].filter(Boolean);
-    const loadIconPromises = uniqueIcons.map(
-      (iconUrl) =>
+
+    const loadMarkerPromises = uniqueColors.map(
+      (color) =>
         new Promise((resolve, reject) => {
-          if (!map.hasImage(iconUrl)) {
-            map.loadImage(iconUrl, (error, image) => {
-              if (error) reject(error);
-              if (image) {
-                map.addImage(iconUrl, image);
-              }
+          if (!map.hasImage(`marker-${color}`)) {
+            const markerImage = new Image();
+            markerImage.src = createMarkerSVG(color);
+            markerImage.onload = () => {
+              map.addImage(`marker-${color}`, markerImage);
               resolve();
-            });
+            };
+            markerImage.onerror = reject;
           } else {
             resolve();
           }
         }),
     );
 
-    Promise.all(loadIconPromises)
+    Promise.all(loadMarkerPromises)
       .then(() => {
         if (map.getSource("locations")) {
           const filteredData = this.getFilteredData();
@@ -294,7 +304,7 @@ export class OSMap extends HTMLElement {
           source: "locations",
           filter: ["!", ["has", "point_count"]],
           layout: {
-            "icon-image": ["get", "iconUrl"],
+            "icon-image": ["concat", "marker-", ["get", "colorCode"]],
             "icon-size": 0.8,
             "icon-allow-overlap": true,
           },
@@ -489,9 +499,7 @@ export class OSMap extends HTMLElement {
     let debounceTimer;
     const legendContainer = document.createElement("div");
     const mapContainer = document.getElementById(this.mapId);
-    const zoomButton = document.querySelector(
-      ".mapboxgl-ctrl-zoom-in",
-    );
+    const zoomButton = document.querySelector(".mapboxgl-ctrl-zoom-in");
     legendContainer.classList.add("os-map-legend");
     this.appendChild(legendContainer);
 
@@ -509,8 +517,7 @@ export class OSMap extends HTMLElement {
     if (zoomButton) {
       const setLegendPosition = () => {
         const legendWidth = legendContainer.getBoundingClientRect().width;
-        const zoomButtonsWidth =
-          zoomButton.getBoundingClientRect().width * 3.5;
+        const zoomButtonsWidth = zoomButton.getBoundingClientRect().width * 3.5;
         const mapWidth = mapContainer.getBoundingClientRect().width;
         if (legendWidth >= mapWidth - zoomButtonsWidth) {
           legendContainer.classList.add("os-map-legend-bottom-position");
@@ -777,7 +784,7 @@ export class OSMap extends HTMLElement {
               type: "symbol",
               source: "expanded-cluster",
               layout: {
-                "icon-image": ["get", "iconUrl"],
+                "icon-image": ["concat", "marker-", ["get", "colorCode"]],
                 "icon-size": 0.8,
                 "icon-allow-overlap": true,
               },

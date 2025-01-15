@@ -8,6 +8,7 @@ module.exports = {
     filename: "os-map.min.js",
   },
   mode: "production",
+  devtool: "source-map",
   optimization: {
     minimize: true,
     minimizer: [

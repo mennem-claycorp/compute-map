@@ -89,29 +89,6 @@
                 ]
             }
         },
-                {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus Test Building 1",
-                "type": "AI",
-                "size": "80+ MW",
-                "city": "Raleigh",
-                "state": "NC ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.6448799,
-                    35.8395
-                    
-                ]
-            }
-        },
         {
             "type": "Feature",
             "properties": {

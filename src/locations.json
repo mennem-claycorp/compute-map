@@ -2006,28 +2006,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Group14 Battery Active Materials Factor",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Moses Lake",
-                "state": "WA",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/group-14.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.2781,
-                    47.1301
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "South Pier at Tempe Town Lake",
                 "type": "Large Scale (Non-Data)",
                 "size": "N/A",

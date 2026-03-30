@@ -1,2249 +1,2114 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "40+ MW",
-                "city": "Atlanta",
-                "state": "GA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.388,
-                    33.749
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "AI",
-                "size": "80+ MW",
-                "city": "Avondale",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.3496,
-                    33.4356
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "80+ MW",
-                "city": "Avondale",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.3496,
-                    33.4356
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "AI",
-                "size": "80+ MW",
-                "city": "Avondale",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.3496,
-                    33.4356
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Express Scripts Office and Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Berkeley",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/express-scripts.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.3315,
-                    38.749
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Boardman",
-                "state": "OR ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.7008,
-                    45.8393
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Boardman",
-                "state": "OR ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.7008,
-                    45.8393
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Boardman",
-                "state": "OR ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.7008,
-                    45.8393
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Boardman",
-                "state": "OR ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.7008,
-                    45.8393
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Boydton",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -78.3897,
-                    36.6671
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "80+ MW",
-                "city": "Bridgeport",
-                "state": "AL",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.7141,
-                    34.947
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "80+ MW",
-                "city": "Bridgeport",
-                "state": "AL",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.7141,
-                    34.947
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "80+ MW",
-                "city": "Bridgeport",
-                "state": "AL",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.7141,
-                    34.947
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "Hyperscale",
-                "size": "80+ MW",
-                "city": "Bridgeport",
-                "state": "AL",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.7141,
-                    34.947
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "NCSA Petascale Computing at UIUC",
-                "type": "Quantum Computing",
-                "size": "20+ MW",
-                "city": "Champaign",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ncsa.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-quantum.png",
-                "colorCode": "#1476E8",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.2434,
-                    40.1164
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 5",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 6",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Cheyenne",
-                "state": "WY ",
-                "region": "Mountain West",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -104.8202,
-                    41.14
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "PsiQuantum Campus",
-                "type": "Quantum Computing",
-                "size": "N/A",
-                "city": "Chicago",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/quantum-campus.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-quantum.png",
-                "colorCode": "#1476E8",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6298,
-                    41.8781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "University of Chicago Pod B Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Chicago",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/u-chicago.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6298,
-                    41.8781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "1+ MW",
-                "city": "Council Bluffs",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -95.8608,
-                    41.2619
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "30+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "30+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "30+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "Hyperscale",
-                "size": "30+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 5",
-                "type": "Hyperscale",
-                "size": "30+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 6",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 7",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 8",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 9",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 1",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 2",
-                "type": "Hyperscale",
-                "size": "40+ MW",
-                "city": "Des Moines",
-                "state": "IA",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -93.625,
-                    41.5868
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "1+ MW",
-                "city": "East Wenatchee",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -120.2934,
-                    47.4151
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "1+ MW",
-                "city": "East Wenatchee",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -120.2934,
-                    47.4151
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "1+ MW",
-                "city": "East Wenatchee",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -120.2934,
-                    47.4151
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "10+ MW",
-                "city": "Elk Grove Village",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.9703,
-                    42.0039
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "20+ MW",
-                "city": "Elk Grove Village",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.9703,
-                    42.0039
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "AI",
-                "size": "40+ MW",
-                "city": "Fayetteville",
-                "state": "GA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.4549,
-                    33.4487
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "40+ MW",
-                "city": "Fayetteville",
-                "state": "GA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.4549,
-                    33.4487
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "30+ MW",
-                "city": "Goodyear",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.3582,
-                    33.4353
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "60+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 1",
-                "type": "Hyperscale",
-                "size": "70+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 2",
-                "type": "Hyperscale",
-                "size": "70+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 3",
-                "type": "Hyperscale",
-                "size": "70+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 4",
-                "type": "Hyperscale",
-                "size": "70+ MW",
-                "city": "Hilliard",
-                "state": "OH ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.1582,
-                    40.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "90+ MW",
-                "city": "Lithia Springs",
-                "state": "GA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.6602,
-                    33.794
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Colocation",
-                "size": "90+ MW",
-                "city": "Lithia Springs",
-                "state": "GA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -84.6602,
-                    33.794
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Magellan Behavior Health Office ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Maryland Heights",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-1.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.4298,
-                    38.7134
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Magellan Health Services Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Maryland Heights",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-2.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.4298,
-                    38.7134
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "30+ MW",
-                "city": "Mesa ",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.8315,
-                    33.4152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "30+ MW",
-                "city": "Mesa",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.8315,
-                    33.4152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "AI",
-                "size": "30+ MW",
-                "city": "Mesa",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.8315,
-                    33.4152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "AI",
-                "size": "30+ MW",
-                "city": "Mesa",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.8315,
-                    33.4152
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "AI",
-                "size": "70+ MW",
-                "city": "New Carlisle",
-                "state": "IN ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5,
-                    41.7
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "70+ MW",
-                "city": "New Carlisle",
-                "state": "IN ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5,
-                    41.7
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "AI",
-                "size": "70+ MW",
-                "city": "New Carlisle",
-                "state": "IN ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5,
-                    41.7
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "AI",
-                "size": "70+ MW",
-                "city": "New Carlisle",
-                "state": "IN ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5,
-                    41.7
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 5",
-                "type": "AI",
-                "size": "70+ MW",
-                "city": "New Carlisle",
-                "state": "IN ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5,
-                    41.7
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Roper St. Francis Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "North Charleston",
-                "state": "SC ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/roper.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -79.9748,
-                    32.8546
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "BJC HealthCare Primary Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "O'Fallon",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/bjc-progress-west.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.6998,
-                    38.8106
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "CitiMortgage Regional Headquarters ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "O'Fallon",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/citi-mortgage.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.6998,
-                    38.8106
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "OG&E Metro Hardening ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Oklahoma City",
-                "state": "OK ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-metro.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.5164,
-                    35.4676
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "OG&E Operating Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Oklahoma City",
-                "state": "OK ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-operating.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -97.5164,
-                    35.4676
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "10+ MW",
-                "city": "Olathe",
-                "state": "KS",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -94.8191,
-                    38.8814
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "30+ MW",
-                "city": "Phoenix",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.074,
-                    33.4484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "40+ MW",
-                "city": "Phoenix",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.074,
-                    33.4484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "AI",
-                "size": "40+ MW",
-                "city": "Phoenix",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.074,
-                    33.4484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "AI",
-                "size": "40+ MW",
-                "city": "Phoenix",
-                "state": "AZ ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -112.074,
-                    33.4484
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Colocation",
-                "size": "40+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
-                "colorCode": "#96449D",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 1",
-                "type": "Hyperscale",
-                "size": "1+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 2 Building 2",
-                "type": "Hyperscale",
-                "size": "1+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "Hyperscale",
-                "size": "20+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "Hyperscale",
-                "size": "10+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "Hyperscale",
-                "size": "20+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "Hyperscale",
-                "size": "20+ MW",
-                "city": "Quincy",
-                "state": "WA ",
-                "region": "Northwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
-                "colorCode": "#FFC107",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -119.8528,
-                    47.2343
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "SAVVIS SC-7 Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Santa Clara",
-                "state": "CA ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/savvis.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -121.9552,
-                    37.3541
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "U.S. Cellular Corporation Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "Schaumburg",
-                "state": "IL ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/us-cellular.jpeg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -88.0834,
-                    42.0334
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Centene IT Renaissance Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "St. Charles ",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.4974,
-                    38.7881
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "AT&T Data Center ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "St. Louis",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.1994,
-                    38.627
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Washington University Data Center Expansion ",
-                "type": "Enterprise",
-                "size": "1+ MW",
-                "city": "St. Louis",
-                "state": "MO ",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/wash-u.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.1994,
-                    38.627
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 1",
-                "type": "AI",
-                "size": "50+ MW",
-                "city": "Stafford",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.4083,
-                    38.4221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 2",
-                "type": "AI",
-                "size": "50+ MW",
-                "city": "Stafford",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.4083,
-                    38.4221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 3",
-                "type": "AI",
-                "size": "50+ MW",
-                "city": "Stafford",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.4083,
-                    38.4221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 4",
-                "type": "AI",
-                "size": "50+ MW",
-                "city": "Stafford",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.4083,
-                    38.4221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Campus 1 Building 5",
-                "type": "AI",
-                "size": "50+ MW",
-                "city": "Stafford",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
-                "colorCode": "#28A745",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.4083,
-                    38.4221
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dominion Data Center & New Command Center ",
-                "type": "Enterprise",
-                "size": "2+ MW",
-                "city": "Richmond",
-                "state": "VA ",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
-                "colorCode": "#212121",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.436,
-                    37.5407
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "South Pier at Tempe Town Lake",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Tempe",
-                "state": "AZ",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/south-20.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -111.94,
-                    33.4255
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Helios Solar Panel Manufacturing Facility",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Mesquite",
-                "state": "TX",
-                "region": "Southwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/helios.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -96.5992,
-                    32.7668
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Hankook Tire Plant Expansion",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Clarksville",
-                "state": "TN",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/hankook.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.3595,
-                    36.5298
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Blue Origin MSFC Engine Test Facility & Blue Engines Facility Expansion",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Huntsville",
-                "state": "AL",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/blue-origin.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -86.5861,
-                    34.7304
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Entek Battery Separator Plant",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Terre Haute",
-                "state": "IN",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/entek.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.4139,
-                    39.4667
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "US Strategic Metals Battery Materials",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Fredericktown",
-                "state": "MO",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/strategic-metals.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -90.2943,
-                    37.5595
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "SK Battery Manufacturing",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Commerce",
-                "state": "GA",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/sk-battery.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -83.4574,
-                    34.204
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Speculative Office Campus",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Charlotte",
-                "state": "NC",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/speculative-office.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -80.8431,
-                    35.2271
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "O'Hare 21 Program & Satellite Terminal 1",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Chicago",
-                "state": "IL",
-                "region": "Midwest",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/ohare.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -87.6298,
-                    41.8781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Dominion Energy Tower",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Richmond",
-                "state": "VA",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -77.436,
-                    37.5407
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Confidential Li-Ion Cell Production Facility",
-                "type": "Large Scale (Non-Data)",
-                "size": "N/A",
-                "city": "Florence",
-                "state": "SC",
-                "region": "Southeast",
-                "image": "https://claycorp.com/wp-content/uploads/2024/12/lion-cell.jpg",
-                "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
-                "colorCode": "#DC7D00",
-                "integratedServices": null
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -79.7626,
-                    34.1954
-                ]
-            }
-        }
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "40+ MW",
+        "city": "Atlanta",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.388, 33.749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "80+ MW",
+        "city": "Avondale",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.3496, 33.4356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "80+ MW",
+        "city": "Avondale",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.3496, 33.4356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "80+ MW",
+        "city": "Avondale",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.3496, 33.4356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Express Scripts Office and Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Berkeley",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/express-scripts.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.3315, 38.749]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Boardman",
+        "state": "OR",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7008, 45.8393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Boardman",
+        "state": "OR",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7008, 45.8393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Boardman",
+        "state": "OR",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7008, 45.8393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Boardman",
+        "state": "OR",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7008, 45.8393]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Boydton",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.3897, 36.6671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "80+ MW",
+        "city": "Bridgeport",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7141, 34.947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "80+ MW",
+        "city": "Bridgeport",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7141, 34.947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "80+ MW",
+        "city": "Bridgeport",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7141, 34.947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "Hyperscale",
+        "size": "80+ MW",
+        "city": "Bridgeport",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7141, 34.947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NCSA Petascale Computing at UIUC",
+        "type": "Quantum Computing",
+        "size": "20+ MW",
+        "city": "Champaign",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ncsa.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-quantum.png",
+        "colorCode": "#1476E8",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.2434, 40.1164]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 5",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 6",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Cheyenne",
+        "state": "WY",
+        "region": "Mountain West",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8202, 41.14]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "PsiQuantum Campus",
+        "type": "Quantum Computing",
+        "size": "N/A",
+        "city": "Chicago",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/quantum-campus.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-quantum.png",
+        "colorCode": "#1476E8",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "University of Chicago Pod B Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Chicago",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/u-chicago.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "1+ MW",
+        "city": "Council Bluffs",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.8608, 41.2619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "Hyperscale",
+        "size": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 5",
+        "type": "Hyperscale",
+        "size": "30+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 6",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 7",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 8",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 9",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 1",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 2",
+        "type": "Hyperscale",
+        "size": "40+ MW",
+        "city": "Des Moines",
+        "state": "IA",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.625, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "1+ MW",
+        "city": "East Wenatchee",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.2934, 47.4151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "1+ MW",
+        "city": "East Wenatchee",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.2934, 47.4151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "1+ MW",
+        "city": "East Wenatchee",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.2934, 47.4151]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "10+ MW",
+        "city": "Elk Grove Village",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.9703, 42.0039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "20+ MW",
+        "city": "Elk Grove Village",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.9703, 42.0039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "40+ MW",
+        "city": "Fayetteville",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4549, 33.4487]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "40+ MW",
+        "city": "Fayetteville",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.4549, 33.4487]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "30+ MW",
+        "city": "Goodyear",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.3582, 33.4353]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "60+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 1",
+        "type": "Hyperscale",
+        "size": "70+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 2",
+        "type": "Hyperscale",
+        "size": "70+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 3",
+        "type": "Hyperscale",
+        "size": "70+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 4",
+        "type": "Hyperscale",
+        "size": "70+ MW",
+        "city": "Hilliard",
+        "state": "OH",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.1582, 40.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "90+ MW",
+        "city": "Lithia Springs",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.6602, 33.794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Colocation",
+        "size": "90+ MW",
+        "city": "Lithia Springs",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.6602, 33.794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Magellan Behavior Health Office",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Maryland Heights",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-1.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.4298, 38.7134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Magellan Health Services Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Maryland Heights",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/magellan-2.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.4298, 38.7134]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "30+ MW",
+        "city": "Mesa",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8315, 33.4152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "30+ MW",
+        "city": "Mesa",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8315, 33.4152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "30+ MW",
+        "city": "Mesa",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8315, 33.4152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "AI",
+        "size": "30+ MW",
+        "city": "Mesa",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8315, 33.4152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "70+ MW",
+        "city": "New Carlisle",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5, 41.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "70+ MW",
+        "city": "New Carlisle",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5, 41.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "70+ MW",
+        "city": "New Carlisle",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5, 41.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "AI",
+        "size": "70+ MW",
+        "city": "New Carlisle",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5, 41.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 5",
+        "type": "AI",
+        "size": "70+ MW",
+        "city": "New Carlisle",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5, 41.7]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Roper St. Francis Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "North Charleston",
+        "state": "SC",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/roper.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.9748, 32.8546]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "BJC HealthCare Primary Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "O'Fallon",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/bjc-progress-west.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.6998, 38.8106]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CitiMortgage Regional Headquarters",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "O'Fallon",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/citi-mortgage.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.6998, 38.8106]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OG&E Metro Hardening",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-metro.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.5164, 35.4676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "OG&E Operating Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ogande-operating.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.5164, 35.4676]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "10+ MW",
+        "city": "Olathe",
+        "state": "KS",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.8191, 38.8814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "30+ MW",
+        "city": "Phoenix",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.074, 33.4484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "40+ MW",
+        "city": "Phoenix",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.074, 33.4484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "40+ MW",
+        "city": "Phoenix",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.074, 33.4484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "AI",
+        "size": "40+ MW",
+        "city": "Phoenix",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.074, 33.4484]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Colocation",
+        "size": "40+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/colocation.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-colocation.png",
+        "colorCode": "#96449D",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 1",
+        "type": "Hyperscale",
+        "size": "1+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 2 Building 2",
+        "type": "Hyperscale",
+        "size": "1+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "Hyperscale",
+        "size": "20+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "Hyperscale",
+        "size": "10+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "20+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "Hyperscale",
+        "size": "20+ MW",
+        "city": "Quincy",
+        "state": "WA",
+        "region": "Northwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8528, 47.2343]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAVVIS SC-7 Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Santa Clara",
+        "state": "CA",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/savvis.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.9552, 37.3541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "U.S. Cellular Corporation Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "Schaumburg",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/us-cellular.jpeg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-88.0834, 42.0334]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Centene IT Renaissance Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "St. Charles",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.4974, 38.7881]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "AT&T Data Center",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "St. Louis",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/centene.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.1994, 38.627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington University Data Center Expansion",
+        "type": "Enterprise",
+        "size": "1+ MW",
+        "city": "St. Louis",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/wash-u.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.1994, 38.627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "50+ MW",
+        "city": "Stafford",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4083, 38.4221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "50+ MW",
+        "city": "Stafford",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4083, 38.4221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "50+ MW",
+        "city": "Stafford",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4083, 38.4221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "AI",
+        "size": "50+ MW",
+        "city": "Stafford",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4083, 38.4221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 5",
+        "type": "AI",
+        "size": "50+ MW",
+        "city": "Stafford",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4083, 38.4221]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dominion Data Center & New Command Center",
+        "type": "Enterprise",
+        "size": "2+ MW",
+        "city": "Richmond",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-enterprise.png",
+        "colorCode": "#212121",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.436, 37.5407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South Pier at Tempe Town Lake",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Tempe",
+        "state": "AZ",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/south-20.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.94, 33.4255]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helios Solar Panel Manufacturing Facility",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Mesquite",
+        "state": "TX",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/helios.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.5992, 32.7668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hankook Tire Plant Expansion",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Clarksville",
+        "state": "TN",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hankook.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.3595, 36.5298]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blue Origin MSFC Engine Test Facility & Blue Engines Facility Expansion",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Huntsville",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/blue-origin.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.5861, 34.7304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Entek Battery Separator Plant",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Terre Haute",
+        "state": "IN",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/entek.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.4139, 39.4667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "US Strategic Metals Battery Materials",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Fredericktown",
+        "state": "MO",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/strategic-metals.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.2943, 37.5595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SK Battery Manufacturing",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Commerce",
+        "state": "GA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/sk-battery.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.4574, 34.204]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Speculative Office Campus",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Charlotte",
+        "state": "NC",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/speculative-office.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.8431, 35.2271]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "O'Hare 21 Program & Satellite Terminal 1",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Chicago",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ohare.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dominion Energy Tower",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Richmond",
+        "state": "VA",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/dominion.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.436, 37.5407]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Confidential Li-Ion Cell Production Facility",
+        "type": "Large Scale (Non-Data)",
+        "size": "N/A",
+        "city": "Florence",
+        "state": "SC",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/lion-cell.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-largescale-1.png",
+        "colorCode": "#DC7D00",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.7626, 34.1954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "200+ MW",
+        "city": "Haskell",
+        "state": "TX",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.7337, 33.1576]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "200+ MW",
+        "city": "Haskell",
+        "state": "TX",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.7337, 33.1576]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 1",
+        "type": "AI",
+        "size": "300+ MW",
+        "city": "Santa Teresa",
+        "state": "NM",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.6392, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 2",
+        "type": "AI",
+        "size": "300+ MW",
+        "city": "Santa Teresa",
+        "state": "NM",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.6392, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "300+ MW",
+        "city": "Santa Teresa",
+        "state": "NM",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.6392, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 4",
+        "type": "AI",
+        "size": "300+ MW",
+        "city": "Santa Teresa",
+        "state": "NM",
+        "region": "Southwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.6392, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "AI",
+        "size": "200+ MW",
+        "city": "Montgomery",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.3076, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 5",
+        "type": "AI",
+        "size": "200+ MW",
+        "city": "Montgomery",
+        "state": "AL",
+        "region": "Southeast",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/ai-data-center.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-ai.png",
+        "colorCode": "#28A745",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.3076, 31.8559]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Campus 1 Building 3",
+        "type": "Hyperscale",
+        "size": "20+ MW",
+        "city": "Elk Grove Village",
+        "state": "IL",
+        "region": "Midwest",
+        "image": "https://claycorp.com/wp-content/uploads/2024/12/hyperscale.jpg",
+        "iconUrl": "https://claycorp.com/wp-content/uploads/2024/12/location-hyperscale.png",
+        "colorCode": "#FFC107",
+        "integratedServices": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.9703, 42.0039]
+      }
+    }
+  ]
 }
